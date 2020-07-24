@@ -1,0 +1,123 @@
+#Using the Optimize anti-flicker snippet
+#This guide explains how to use the Optimize anti-flicker snippet, which supports loading your Optimize container asynchronously while hiding the page until the container is ready, ensuring that users don't see the initial page content prior to it being modified by an experiment.
+
+#The anti-flicker snippet code
+#To add the anti-flicker snippet to your site, insert the following code in the <head> section of every page that loads your Optimize container, prior to any other code on the page. You must also replace the string GTM-XXXXXX with your Optimize container ID:
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-XXXXXX':true});</script>
+
+To better understand how the Optimize anti-flicker snippet works, refer to the commented version below:
+
+<!-- Optimize anti-flicker CSS code -->
+<style>
+/* Sets the opacity of any element with this class to 0 */
+.async-hide {
+  opacity: 0 !important
+}
+</style>
+
+<!-- Optimize anti-flicker JavaScript code -->
+<script>
+/**
+ * Adds a class to the <html> element that hides the page until the Optimize
+ * container is loaded and the experiment is ready. Once Optimize is ready
+ * (or 4 seconds has passed), the class is removed from the <html> element
+ * and the page becomes visible again.
+ *
+ * @param {Window} a The global object.
+ * @param {HTMLHtmlElement} s The <html> element.
+ * @param {string} y The name of the class used to hide the <html> element.
+ * @param {string} n The name of property that references the dataLayer object.
+ * @param {number} c The max time (in milliseconds) the page will be hidden.
+ * @param {Object} h An object whose keys are Optimize container IDs.
+ * @param {undefined} i (unused parameter).
+ * @param {undefined} d (unused parameter).
+ * @param {undefined} e (unused parameter).
+ */
+(function(a, s, y, n, c, h, i, d, e) {
+  // Adds a class (defaulting to 'async-hide') to the <html> element.
+  s.className += ' ' + y;
+
+  // Keeps track of the exact time that the snippet executes.
+  h.start = 1*new Date;
+
+  // Creates a function and assigns it to a local variable `i` as well as
+  // the `end` property of the Optimize container object. Once Optimize is
+  // loaded it will call this function, which will remove the 'async-hide'
+  // class from the <html> element, causing the page to become visible again.
+  h.end = i = function() {
+    s.className = s.className.replace(RegExp(' ?' + y), '');
+  };
+
+  // Initalizes the dataLayer as an empty array if it's not already initialized
+  // and assigns the passed Optimize container object to the dataLayer's `hide`
+  // property. This makes the function defined above accessible globally at the
+  // path `window.dataLayer.hide.end`, so it can be called by Optimize.
+  (a[n] = a[n] || []).hide = h;
+
+  // Creates a timeout that will call the page-showing function after the
+  // timeout amount (defaulting to 4 seconds), in the event that Optimize has
+  // not already loaded. This ensures your page will not stay hidden in the
+  // event that Optimize takes too long to load.
+  setTimeout(function() {
+    i();
+    h.end = null
+  }, c);
+  h.timeout = c;
+})(
+    window, // The initial value for local variable `a`.
+    document.documentElement, // The initial value for local variable `s`.
+    'async-hide', // The initial value for local variable `y`.
+    'dataLayer', // The initial value for local variable `n`.
+    4000, // The initial value for local variable `c`.
+    {'GTM-XXXXXX': true} // The initial value for local variable `h`.
+);
+</script>
+
+Customizing the anti-flicker snippet
+In some cases you need to customize the anti-flicker snippet. The most common reasons are:
+
+to support loading multiple Optimize containers
+to extend the callback timeout
+to change the name of the class added to the <html> element
+Loading multiple containers
+If you're loading multiple Optimize containers, you can customize the snippet to ensure the page remains hidden until all containers have been loaded.
+
+To specify more than one container, add additional keys to the container object at the end of the snippet. The following code will wait for the containers GTM-XXXXXX and GTM-YYYYYY to load:
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-XXXXXX':true,'GTM-YYYYYY':true});</script>
+
+Changing the timeout
+To change the default amount of time Optimize will wait before removing the .async-hide class from the <html> element (in the event Optimize takes too long to load), update the number passed at the end of the snippet.
+
+The following code will wait 5000 milliseconds before showing the page:
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',5000,
+{'GTM-XXXXXX':true});</script>
+
+Changing the async-hide class name
+If the async-hide class name is already defined in your CSS, you can choose a different name. To change the name, update the class in both the <style> tag as well as the argument passed at the end of the snippet.
+
+The following code will use the class optimize-loading instead of async-hide:
+
+<style>.optimize-loading { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'optimize-loading','dataLayer',4000,
+{'GTM-XXXXXX':true});</script>
+
