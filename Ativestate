@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>ActiveState Platform Documentation</title>
+    <meta name="generator" content="Hugo 0.25" />
+
+    
+    <meta name="description" content="Complete documentation for the ActiveState Platform.">
+    
+    <link rel="canonical" href="//docs.activestate.com/platform/state/">
+    
+
+    
+    <meta name="apple-mobile-web-app-title" content="ActiveState Platform Documentation">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="//docs.activestate.com/platform/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="//docs.activestate.com/platform/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('//docs.activestate.com/platform/fonts/icon.eot');
+        src: url('//docs.activestate.com/platform/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('//docs.activestate.com/platform/fonts/icon.woff')
+               format('woff'),
+             url('//docs.activestate.com/platform/fonts/icon.ttf')
+               format('truetype'),
+             url('//docs.activestate.com/platform/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="//docs.activestate.com/platform/stylesheets/application.css">
+    <link rel="stylesheet" href="//docs.activestate.com/platform/stylesheets/temporary.css">
+    <link rel="stylesheet" href="//docs.activestate.com/platform/stylesheets/palettes.css">
+    <link rel="stylesheet" href="//docs.activestate.com/platform/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700|Source&#43;Code&#43;Pro">
+    <style>
+      body, input {
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Source Code Pro', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <link rel="stylesheet" href="//docs.activestate.com/platform/stylesheets/as_common.css">
+    
+    <link rel="stylesheet" href="//docs.activestate.com/platform/stylesheets/as_custom.css">
+    
+    <script src="//docs.activestate.com/platform/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-grey palette-accent-red">
+
+
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="logo">
+        <a href="//www.activestate.com">
+          <img src="../images/logo.png" alt="ActiveState homepage">
+        </a>
+      </div>
+      <div class="title">
+        
+        
+        
+        
+        <a href="//docs.activestate.com">docs.activestate.com</a>
+      </div>
+    </div>
+
+    
+
+    
+
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="//docs.activestate.com/platform/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>ActiveState Platform Documentation </strong>
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+
+
+
+<a  title="ActiveState Platform" href="../">
+	
+	ActiveState Platform
+</a>
+
+
+
+  
+    <ul>
+      
+        
+        
+
+
+
+<a  title="Changelog" href="../changes/">
+	
+	Changelog
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Terms of Use" href="../license/">
+	
+	Terms of Use
+</a>
+
+
+
+      
+    </ul>
+  
+</li>
+
+
+
+<li>
+  
+
+
+
+<a  title="Managing your account" href="../user/index.html">
+	
+	Managing your account
+</a>
+
+
+
+  
+    <ul>
+      
+        
+        
+
+
+
+<a  title="Creating your account" href="../user/create_account.html">
+	
+	Creating your account
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Signing in" href="../user/sign_in.html">
+	
+	Signing in
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Resetting your password" href="../user/password_reset.html">
+	
+	Resetting your password
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Signing out" href="../user/sign_out.html">
+	
+	Signing out
+</a>
+
+
+
+      
+    </ul>
+  
+</li>
+
+
+
+<li>
+  
+
+
+
+<a  title="Quick Starts" href="../start/">
+	
+	Quick Starts
+</a>
+
+
+
+  
+    <ul>
+      
+        
+        
+
+
+
+<a  title="Custom projects" href="../start/build.html">
+	
+	Custom projects
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Managed projects" href="../start/managed.html">
+	
+	Managed projects
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="State Tool CLI" href="../state/quick.html">
+	
+	State Tool CLI
+</a>
+
+
+
+      
+    </ul>
+  
+</li>
+
+
+
+<li>
+  
+
+
+
+<a  title="Managing Organizations" href="../organizations/">
+	
+	Managing Organizations
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+
+
+
+<a  title="Working with Projects" href="../projects/">
+	
+	Working with Projects
+</a>
+
+
+
+  
+    <ul>
+      
+        
+        
+
+
+
+<a  title="Creating from requirements.txt" href="../projects/requirements-txt.html">
+	
+	Creating from requirements.txt
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Creating custom projects" href="../projects/custom-builds/">
+	
+	Creating custom projects
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Featured projects" href="../projects/forking/community.html">
+	
+	Featured projects
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Adding secrets" href="../projects/secrets/">
+	
+	Adding secrets
+</a>
+
+
+
+      
+    </ul>
+  
+</li>
+
+
+
+<li>
+  
+
+
+
+<a class="current" title="State Tool" href="../state/">
+	
+	State Tool
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+    <ul>
+      
+        
+        
+
+
+
+<a  title="Getting Started" href="../state/start.html">
+	
+	Getting Started
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Using on CI/CD" href="../state/ci.html">
+	
+	Using on CI/CD
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="activate Command" href="../state/activate.html">
+	
+	activate Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="auth Command" href="../state/auth.html">
+	
+	auth Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="clean Command" href="../state/clean.html">
+	
+	clean Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="deploy Command" href="../state/deploy.html">
+	
+	deploy Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="events Command" href="../state/events.html">
+	
+	events Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="export Command" href="../state/export.html">
+	
+	export Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="fork Command" href="../state/fork.html">
+	
+	fork Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="history Command" href="../state/history.html">
+	
+	history Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="init Command" href="../state/init.html">
+	
+	init Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="languages Command" href="../state/languages.html">
+	
+	languages Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="organizations Command" href="../state/organizations.html">
+	
+	organizations Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="packages Command" href="../state/packages.html">
+	
+	packages Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="platforms Command" href="../state/platforms.html">
+	
+	platforms Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="projects Command" href="../state/projects.html">
+	
+	projects Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="pull Command" href="../state/pull.html">
+	
+	pull Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="push Command" href="../state/push.html">
+	
+	push Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="run Command" href="../state/run.html">
+	
+	run Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="scripts Command" href="../state/scripts.html">
+	
+	scripts Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="secrets Command" href="../state/secrets.html">
+	
+	secrets Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="show Command" href="../state/show.html">
+	
+	show Command
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="update Command" href="../state/update.html">
+	
+	update Command
+</a>
+
+
+
+      
+    </ul>
+  
+</li>
+
+
+
+<li>
+  
+
+
+
+<a  title="Preferences" href="../prefs/">
+	
+	Preferences
+</a>
+
+
+
+  
+    <ul>
+      
+        
+        
+
+
+
+<a  title="Email" href="../prefs/email.html">
+	
+	Email
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Change Password" href="../prefs/password.html">
+	
+	Change Password
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Organizations" href="../prefs/organizations.html">
+	
+	Organizations
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Date and Time" href="../prefs/datetime.html">
+	
+	Date and Time
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Two-Factor Authentication" href="../prefs/twofactor.html">
+	
+	Two-Factor Authentication
+</a>
+
+
+
+      
+    </ul>
+  
+</li>
+
+
+
+<li>
+  
+
+
+
+<a  title="Troubleshooting" href="../troubleshooting/">
+	
+	Troubleshooting
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+
+
+
+<a  title="Need Help?" href="../support/index.html">
+	
+	Need Help?
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>State Tool </h1>
+
+			
+
+<h2 id="introducing-the-state-tool-beta">Introducing the State Tool (Beta)</h2>
+
+<p>Wouldn’t it be great if any developer could run a single command and immediately get started contributing code to your project? And wouldn&rsquo;t it be even better to automate all of the tedious configuration workflow you usually go through? This is exactly what ActiveState is working to facilitate with our State Tool.</p>
+
+<p>Once you have set up your runtime environment, by creating a Project on the ActiveState Platform and are getting successful builds, you can instantly deploy your runtime environment locally using the State Tool. The State Tool creates a virtual environment, similar to <code>virtualenv</code> and <code>pipenv</code>, and will not contaminate any of the preexisting Python installations or environments you have configured.</p>
+
+<h2 id="about-the-state-tool">About the State Tool</h2>
+
+<p>The State Tool is the command line tool for the ActiveState Platform. It allows you to manage and use Platform projects right from the command prompt. You can create new projects, view existing projects, and download and install project runtimes.</p>
+
+<p>The State Tool has two distinct capabilities:</p>
+
+<ul>
+<li><strong>Commands</strong>: These are for tasks you want the State Tool to do. You can enter commands and subcommands using state [command] on the command line.</li>
+<li><strong>Flags</strong>: These are for providing optional parameters to modify the behavior of commands. Flags are specific to the command and each command can have its own flags. For example, <code>--language python3</code> in the <code>state init</code> command causes Python 3 to be selected as the runtime language.</li>
+</ul>
+
+<p>You can learn the State Tool command line interactively using the <code>--help</code> flag. Help is provided for each command and subcommand, and you can explore the hierarchy of commands until you find what you need.</p>
+
+<p>For example, the following commands provide increasing detail about the <code>state secretes set</code> subcommand:</p>
+
+<pre><code class="language-text"># list information about the available commands
+state --help
+
+# show details for the secrets command
+state secrets --help
+
+# show details for the set subcommand
+state secrets set --help
+</code></pre>
+
+<h2 id="installing-the-state-tool">Installing the State Tool</h2>
+
+<h3 id="installation-on-linux">Installation on Linux</h3>
+
+<p>You should have <code>curl</code> installed before you run the script to install the State Tool. Alternatively, you can manually download and run the <code>install.sh</code> file.</p>
+
+<ol>
+<li><p>Open your command prompt and enter the following command on one line:</p>
+
+<pre><code class="language-text">sh &lt;(curl -q https://platform.activestate.com/dl/cli/install.sh)
+</code></pre>
+
+<p>The latest version of the State Tool will be downloaded, verified, and installed.</p></li>
+</ol>
+
+<h3 id="installation-on-windows">Installation on Windows</h3>
+
+<p><strong>Important</strong>: The State Tool installation requires PowerShell version 3.0 or higher. On older versions of Windows you will need to manually upgrade PowerShell to a supported version before completing the installation. For more information, see <a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell?view=powershell-7#upgrading-existing-windows-powershell">Upgrading existing Windows PowerShell</a>.</p>
+
+<ol>
+<li>Start PowerShell as an Administrator. Click the <strong>Start</strong> menu, search for <strong>Windows PowerShell</strong>, right click it and select <strong>Run as Administrator</strong>.</li>
+
+<li><p>At the prompt, enter the following command:</p>
+
+<pre><code class="language-text">IEX(New-Object Net.WebClient).downloadString('https://platform.activestate.com/dl/cli/install.ps1')
+</code></pre>
+
+<p>The latest version of the State Tool will be downloaded, verified, and installed.</p></li>
+
+<li><p>Start your command prompt (<code>cmd.exe</code>) to use the State Tool. Click the Start menu, search for Command Prompt, and click the menu item.</p></li>
+</ol>
+
+<p><strong>Important</strong>: Currently, you cannot run the State Tool in PowerShell. You must use the command prompt (<code>cmd.exe</code>). Support for PowerShell is coming soon.</p>
+
+<h3 id="installation-on-macos">Installation on macOS</h3>
+
+<ol>
+<li><p>Open your command prompt and enter the following command on one line:</p>
+
+<pre><code class="language-text">sh &lt;(curl -q https://platform.activestate.com/dl/cli/install.sh)
+</code></pre>
+
+<p>The latest version of the State Tool will be downloaded, verified, and installed.</p></li>
+</ol>
+
+<h2 id="usage">Usage</h2>
+
+<p>The basic usage for setting up a local virtual environment with your project is:</p>
+
+<pre><code class="language-text">$ state activate owner/projectName
+</code></pre>
+
+<p>Where &ldquo;owner&rdquo; refers to your username or the organization name that the project belongs to.</p>
+
+<h3 id="working-with-your-activated-project">Working with your activated project</h3>
+
+<p>There are two ways to reactivate an existing project:</p>
+
+<ul>
+<li>Enter <code>state activate owner/projectName</code> anywhere on your system and you will be given the option to reuse your previously used directory and enter into an activated state.</li>
+<li>Open your terminal and navigate to the directory that contains the <code>activestate.yaml</code> file for the project  and enter <code>state activate</code> without any additional arguments.</li>
+</ul>
+
+<p>To verify that your environment is &ldquo;activated&rdquo;:</p>
+
+<ul>
+<li>When in an activated state the “ACTIVESTATE_ACTIVATED” environment variable will be defined. Also if your terminal shell allows for it, an informational message starting with <strong>Active State:</strong> will be printed after each command is executed. On Linux, you can check the value of the environment variable by entering the following command:</li>
+</ul>
+
+<pre><code class="language-text">printenv | grep ACTIVESTATE_ACTIVATED
+</code></pre>
+
+<h3 id="using-your-project">Using Your Project</h3>
+
+<p>Whenever you are in an “activated state”, your shell will be configured to use the runtime environment you created on the ActiveState Platform. Any preexisting Python installations you have will be overridden ONLY while using the “activated state”.</p>
+
+<p>The State Tool provides a number of ways to configure your ActiveState Platform project to integrate it with your development environment. You can customize your configuration by editing the <code>activestate.yaml</code> configuration file in your project&rsquo;s root directory.</p>
+
+<p>You can use the following mechanisms to customize the configuration of your  project:</p>
+
+<ul>
+<li><strong>Constants</strong>: Define constant values that can be reused throughout your configuration file. For example, you can define a hostname that&rsquo;s used repeatedly as a constant and then use the constant name for subsequent references.</li>
+<li><strong>Secrets</strong>: Securely save and retrieve sensitive values for use in your configuration file, either at the project or user level.</li>
+<li><strong>Scripts</strong>: Name and define scripts that you can run within your project by typing the name of the script.</li>
+<li><strong>Events</strong>: Run scripts or commands when particular State Tool events occur. For example, you can hook into the State Tool ACTIVATE event to start up the database server for your development environment.</li>
+</ul>
+
+<p>For more detailed information and examples, see <a href="../state/start.html">Getting Started</a>.</p>
+
+<h2 id="command-reference">Command Reference</h2>
+
+<p>This release of the State Tool includes a number of commands for interacting with the ActiveState Platform and your projects. For the complete list run <code>state help</code>, or run <code>state &lt;command_name&gt; help</code> for help with a particular command.</p>
+
+<ul>
+<li><a href="activate.html">activate</a></li>
+<li><a href="auth.html">auth</a></li>
+<li><a href="clean.html">clean</a></li>
+<li><a href="deploy.html">deploy</a></li>
+<li><a href="events.html">events</a></li>
+<li><a href="export.html">export</a></li>
+<li><a href="fork.html">fork</a></li>
+<li><a href="history.html">history</a></li>
+<li><a href="init.html">init</a></li>
+<li><a href="languages.html">languages</a></li>
+<li><a href="organizations.html">organizations</a></li>
+<li><a href="packages.html">packages</a></li>
+<li><a href="platforms.html">platforms</a></li>
+<li><a href="projects.html">projects</a></li>
+<li><a href="pull.html">pull</a></li>
+<li><a href="push.html">push</a></li>
+<li><a href="run.html">run</a></li>
+<li><a href="scripts.html">scripts</a></li>
+<li><a href="secrets.html">secrets</a></li>
+<li><a href="show.html">show</a></li>
+<li><a href="update.html">update</a></li>
+</ul>
+
+<h2 id="logging-and-configuration">Logging and configuration</h2>
+
+<h3 id="linux">Linux</h3>
+
+<p>On Linux the State Tool logs and configuration files are located in <code>~/.config/activestate/cli-unstable</code>.</p>
+
+<p>The log file is named <code>log.txt</code>.</p>
+
+<p>The configuration file is named <code>config.yaml</code>. The configuration file stores the API token used to authenticate with the ActiveState Platform and your default locale. You can change the default location by creating an ACTIVESTATE_CLI_CONFIGDIR environment variable and setting the location to use.</p>
+
+<p>The language runtimes used by your activated projects are stored in subfolders under <code>~/.cache/activestate/</code>. You can change the default location by creating an ACTIVESTATE_CLI_CACHEDIR environment variable and setting the location to use.</p>
+
+<h3 id="windows">Windows</h3>
+
+<p>On Windows, the State Tool logs and configuration files are located in <code>C:\Users\&lt;User&gt;\AppData\Roaming\activestate\cli-unstable\</code>.</p>
+
+<p>The log file is named <code>log.txt</code>.</p>
+
+<p>The language runtimes used by your activated projects are stored in subfolders under <code>%HOME%\AppData\Local\activestate\cli-unstable\</code>. You can change the default location by creating an ACTIVESTATE_CLI_CACHEDIR environment variable and setting the location to use.</p>
+
+<h3 id="macos">macOS</h3>
+
+<p>On macOS, the State Tool logs and configuration files are located in <code>~/Library/Application Support/activestate/cli-unstable</code>.</p>
+
+<p>The log file is named <code>log.txt</code></p>
+
+<p>The language runtimes used by your activated projects are stored in subfolders under <code>~/Library/Caches/activestate</code>. You can change the default location by creating an ACTIVESTATE_CLI_CACHEDIR environment variable and setting the location to use.</p>
+
+<h2 id="uninstalling-the-state-tool">Uninstalling the State Tool</h2>
+
+<p>You can uninstall the State Tool by running the <code>state clean uninstall</code> command. For more information, see the <a href="../state/clean.html">command reference</a>.</p>
+
+
+			<aside class="copyright" role="note">
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				<div class="as_footer">
+  
+  <div class="prod_links">
+    <strong>
+      <a href="//platform.activestate.com" target="_blank">ActiveState Platform</a>&nbsp;&nbsp;
+      <a href="//www.activestate.com/downloads" target="_blank">Downloads</a>&nbsp;&nbsp;
+      <a href="//community.activestate.com" target="_blank">Community</a>&nbsp;&nbsp;
+      <a href="//github.com/activestate/code" target="_blank">Code Recipes</a>&nbsp;&nbsp;
+    </strong>
+  </div>
+  <div class="as_copyright"> 
+    &copy; 2020 ActiveState Software Inc. All rights reserved. <strong><a href="../trademarks/">Trademarks</a>. <a href="//www.activestate.com/privacy-policy">Privacy Policy</a>.</strong>
+  </div>
+</div>
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '';
+      var repo_id  = '';
+    
+    </script>
+
+    <script src="//docs.activestate.com/platform/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "¶";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+      <script>
+        (function(i,s,o,g,r,a,m){
+          i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||
+          []).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;
+          m.parentNode.insertBefore(a,m)
+        })(window, document,
+          'script', '//www.google-analytics.com/analytics.js', 'ga');
+         
+        ga('create', '', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+         
+        var buttons = document.querySelectorAll('a');
+        Array.prototype.map.call(buttons, function(item) {
+          if (item.host != document.location.host) {
+            item.addEventListener('click', function() {
+              var action = item.getAttribute('data-action') || 'follow';
+              ga('send', 'event', 'outbound', action, item.href);
+            });
+          }
+        });
+         
+        var query = document.querySelector('.query');
+        query.addEventListener('blur', function() {
+          if (this.value) {
+            var path = document.location.pathname;
+            ga('send', 'pageview', path + '?q=' + this.value);
+          }
+        });
+      </script>
+    
+
+    <script src="//docs.activestate.com/platform/javascripts/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
