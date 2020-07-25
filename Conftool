@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	****************************
+	* Website by ConfTool GmbH *
+	****************************
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2020 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<base href="https://www.conftool.net/">
+
+<title>ConfTool: Conference and Event Management Software</title>
+<meta name="generator" content="TYPO3 CMS" />
+
+
+<link rel="stylesheet" type="text/css" href="/typo3temp/assets/css/11dcd47f57.css?1591447648" media="all">
+<link rel="stylesheet" type="text/css" href="/fileadmin/includes/conftool.css?1593523922" media="all">
+<link rel="stylesheet" type="text/css" href="/fileadmin/includes/conftool2.css?1593524038" media="all">
+<link rel="stylesheet" type="text/css" href="/fileadmin/includes/hyperlinks.css?1394807105" media="all">
+<link rel="stylesheet" type="text/css" href="/fileadmin/includes/navigation.css?1593524379" media="all">
+<link rel="stylesheet" type="text/css" href="/fileadmin/includes/print.css?1328175166" media="print, embossed">
+<link rel="stylesheet" type="text/css" href="/fileadmin/includes/lightbox/magnific-popup.css?1594371461" media="all">
+
+
+
+<script src="/fileadmin/includes/jquery.min.js?1531224951" type="text/javascript"></script>
+<script src="/fileadmin/includes/checkmobile.js?1592473431" type="text/javascript" async="async"></script>
+<script src="/fileadmin/includes/jquery.scroll.js?1591906688" type="text/javascript" async="async"></script>
+<script src="/fileadmin/includes/lightbox/magnific-popup.js?1591955765" type="text/javascript"></script>
+<script src="/typo3temp/assets/js/301d3defed.js?1591447648" type="text/javascript"></script>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /><meta name="verify-v1" content="vqyaFh5zCgPa0t1JimDDKpKeEUhHZzwBRy72YDiArR8=" /><meta name="viewport" content="width=980" /><meta name="referrer" content="no-referrer" /><meta name="description" content="" /><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.conftool.net/" />
+</head>
+<body>
+
+
+<div id="iecenter">
+
+<div id="maincontainer"><div id="main">
+
+<div id="header">
+ <div id="logo">
+	<a href="http://www.conftool.net/"><img height="85" src="/pics/conftool-logo.png" border=0></a>
+ </div>
+ <div id="language">
+        <!-- LANGNAV -->
+	    <div class="langnav hideforprint"><ul><li class="langnav-act-en"><a href="/en/index.html">English</a></li><li class="langnav-de"><a href="/de/startseite.html" hreflang="de-DE">Deutsch</a></li></ul></div>
+  </div>
+
+</div>
+
+<div style="clear: both"></div>
+
+<div id="leftcontainer" class="hideforprint">
+
+<!-- LEFTNAV -->
+<div id="leftnav" class="hideforprint"><ul><li class="leftnav-item-act"><a href="/en/index.html">Homepage</a></li><li class="leftnav-item"> <a href="/en/features.html">Features</a> </li><li class="leftnav-item"> <a href="/en/demo_installations.html">Demo Installations</a> </li><li class="leftnav-item"> <a href="/en/references.html">References</a> </li><li class="leftnav-item"> <a href="/en/about-conftool.html">About ConfTool</a> </li><li class="leftnav-item-separator">ConfTool Documentation</li><li class="leftnav-item"> <a href="/en/user_documentation.html">User Documentation</a> </li><li class="leftnav-item"> <a href="/en/administrator_documentation.html">Admin Documentation</a> </li><li class="leftnav-item"> <a href="/en/configuration_documentation.html">Configuration Documentation</a> </li><li class="leftnav-item"> <a href="/en/organizer_documentation.html">Organizer Documentation</a> </li><li class="leftnav-item"> <a href="/en/technical_documentation.html">Technical Documentation</a> </li><li class="leftnav-item"> <a href="http://www.conftool.net/ctforum/">ConfTool Support Forum</a> </li></ul></div>
+&nbsp;<br />
+</div>
+
+
+<div id="contentcontainer">
+ <div id="content">
+
+<!-- CONTENT -->
+
+<div id="c842" class="frame frame-default frame-type-text frame-layout-0"><header><h1 class="">
+				ConfTool: Conference Management Software
+			</h1></header><p>You are going to organize a conference and are looking for professional and efficient software for:</p><ul><li>the submission and review process of contributions,</li><li>the scheduling of the conference program,</li><li>the registration, administration and invoicing of participants,</li><li>and many other of the tasks of the organizer?</li></ul><p>ConfTool is a Web-based event management system developed to support the organization of academic conferences, workshops, congresses and seminars. It has&nbsp;helped more than <a href="/en/references.html" title="Opens internal link in current window">1000 organizers</a> to make their events a success and is<br /> available in over <a href="/en/demo_installations.html" title="Opens internal link in current window">10 languages</a>:&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_english_07.gif.gif" width="20" height="12" />&nbsp;<img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_german_04.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_french_04.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_italian_04.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_spanish_06.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_catalan_05.gif.gif" width="20" height="14" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_portuguese_pt_03.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_portuguese_br.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_polish_04.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_russian_04.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_hungarian_02.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/romania.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_czech.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_slovak_04.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_slovenian_06.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_turkish_02.gif.gif" width="20" height="14" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_arabic.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_bahasa_id.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_chinese_06.gif.gif" width="20" height="12" />&nbsp;     <img src="/fileadmin/_migrated/RTE/RTEmagicC_flag_japanese_06.gif.gif" width="20" height="13" /></p><h2>Two Versions for Different Requirements</h2><p><span class="mark2"><span style="font-family:'QuicksandBold',Verdana,Arial,Helvetica,sans-serif; font-size:11pt">VSIS ConfTool</span></span><br /> The <strong>standard version VSIS ConfTool</strong> was designed for smaller events with up to 150 participants. It is an open/shared-source system available under different licenses. VSIS ConfTool&nbsp;is geared towards academic organizers of small, non-commercial events.&nbsp;The system <a href="/en/features.html" title="Opens internal link in current window">features only&nbsp;basic functions</a> and&nbsp;is offered without support and for local installation only.&nbsp;We offer a <a href="/en/about-conftool/vsis-conftool-license.html" title="Opens internal link in current window">free license on request</a>.</p><p><span class="mark2"><span style="font-family:'QuicksandBold',Verdana,Arial,Helvetica,sans-serif; font-size:11pt">ConfTool Pro</span></span><br /> The <strong>professional version ConfTool Pro</strong> has substantially more features, is more flexible and also suitable for events with many participants, several contribution types and/or sub-events. ConfTool Pro is offered as a hosted service with full technical support. The fee depends on the requirements and the size of your event. Contact us for a quote: <a href="javascript:linkTo_UnCryptMailto(%27kygjrm8pcoscqrqYamldrmmj%2Clcr%27);" title="Opens internal link in current window" class="mail">requests<span style='color:#600000'>&#064;</span>conftool<span style='color:#000080'>&#046;</span>net</a></p><h2>ConfTool Pro - Your Benefits</h2><p>ConfTool Pro offers a number of advantages that will help you to organize your event as efficiently as possible:</p><ul><li>Hosted software solution with full&nbsp;setup and professional support for the configuration and use of the software</li><li>Customazible submission and review forms</li><li>Scheduling of the conference program</li><li>Enhanced export options</li><li>Invitation option for &nbsp;authors, participants, reviewers and program committee members</li><li>Enhanced payment options (e.g., PayPal, Skrill (Moneybookers) and optional modules for credit card gateways)</li></ul><p>You can access online demos for <a href="/en/demo_installations.html#c8" title="Opens internal link in current window">VSIS ConfTool Standard</a> and <a href="/en/demo_installations.html#c386" title="Opens internal link in current window">ConfTool Pro</a>&nbsp;to get an impression of the system.</p><p>For further information, we are happy to assist you. Please send us an e-mail to <a href="javascript:linkTo_UnCryptMailto(%27kygjrm8pcoscqrqYamldrmmj%2Clcr%27);" title="Opens window for sending email">requests<span style='color:#600000'>&#064;</span>conftool<span style='color:#000080'>&#046;</span>net</a> or <a href="/en/about-conftool/contact.html#c38" title="Opens internal link in current window">call us</a>.</p></div>
+
+
+
+<br/><br/>
+ </div>
+</div>
+
+
+<div id="footer">
+		Page last updated:&nbsp;June 15, 2020
+		&middot; Site and Graphics &copy; 2020 by
+		<strong><a href="https://www.conftool.net/en/about_conftool/contact.html">Dr. Harald Weinreich &amp; ConfTool GmbH, Germany</a></strong> &middot; All Rights Reserved &middot;
+		<strong><a href="https://www.conftool.net/en/about_conftool/privacy.html">Privacy Statement</a></strong>
+</div>
+
+</div></div>
+
+</div>
+
+
+
+
+</body>
+</html>
