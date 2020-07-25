@@ -1,0 +1,2769 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    
+    <head><meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+
+<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="57x57" href="/content/dam/hotlink/images/favicons/apple-touch-icon-57x57.png"/>
+<link rel="apple-touch-icon" sizes="60x60" href="/content/dam/hotlink/images/favicons/apple-touch-icon-60x60.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="/content/dam/hotlink/images/favicons/apple-touch-icon-72x72.png"/>
+<link rel="apple-touch-icon" sizes="76x76" href="/content/dam/hotlink/images/favicons/apple-touch-icon-76x76.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="/content/dam/hotlink/images/favicons/apple-touch-icon-114x114.png"/>
+<link rel="apple-touch-icon" sizes="120x120" href="/content/dam/hotlink/images/favicons/apple-touch-icon-120x120.png"/>
+<link rel="apple-touch-icon" sizes="144x144" href="/content/dam/hotlink/images/favicons/apple-touch-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="/content/dam/hotlink/images/favicons/apple-touch-icon-152x152.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/content/dam/hotlink/images/favicons/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/content/dam/hotlink/images/favicons/android-chrome-16x16.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/content/dam/hotlink/images/favicons/android-chrome-32x32.png"/>
+<link rel="icon" type="image/png" sizes="96x96" href="/content/dam/hotlink/images/favicons/android-chrome-96x96.png"/>
+<link rel="icon" type="image/png" sizes="192x192" href="/content/dam/hotlink/images/favicons/android-chrome-192x192.png"/>
+
+
+<link rel="manifest" href="/content/dam/hotlink/images/favicons/manifest.json"/>
+<meta name="msapplication-TileColor" content="#ffffff"/>
+<meta name="msapplication-TileImage" content="/content/dam/hotlink/images/favicons/ms-icon-144x144.png"/>
+<meta name="msapplication-config" content="/content/dam/hotlink/images/favicons/browserconfig.xml"/>
+<meta name="theme-color" content="#ffffff"/>
+
+
+
+
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Hotlink"/>
+
+
+
+<meta property="og:url" content="https://www.hotlink.com.my/en/whats-new.html"/>
+
+
+    
+
+
+
+
+
+
+    <meta property="og:title" content="Non- Stop Internet on the No.1 4G Network"/>
+    <meta property="og:description"/>
+    <meta name="title" content="Non- Stop Internet on the No.1 4G Network"/>
+    <meta name="description"/>
+
+
+
+    
+        <meta property="og:image" content="http://www.hotlink.com.my/content/dam/hotlink/images/global-images/hotlink-logo.jpg"/>
+    
+    
+    
+
+
+<meta name="keywords"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/etc/designs/hotlink/favicon.ico"/>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/hotlink/favicon.ico"/>
+
+
+<title>Non- Stop Internet on the No.1 4G Network | Hotlink</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/mxs/clientlibs/main.9414ed357d84d3717d19793b552b87df.css" type="text/css">
+
+
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/mxs/clientlibs/rebrand.6c7052d3637b167f094275b39f289c65.css" type="text/css">
+
+
+
+
+
+
+
+
+    <meta name="rt" content="0"/>
+    
+    
+
+
+
+
+    
+<script type="text/javascript" src="/etc.clientlibs/thirdpartyclientlibs/clientlibs/jquery-3.4.1.220afd743d9e9643852e31a135a9f3ae.js"></script>
+
+
+
+
+
+
+
+    
+    
+        <script class="kxct" data-id="q7j7etkfm" data-timing="async" data-version="3.0" type="text/javascript">
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;
+    k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/q7j7etkfm.js';
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  }());
+</script>
+<script class="kxint" data-namespace="maxis" type="text/javascript">
+  window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+  (function(){
+    function retrieve(n){
+      var k='kxmaxis_'+n, ls=(function(){
+        try {
+          return window.localStorage;
+        } catch(e) {
+          return null;
+        }
+      })();
+      if (ls) {
+          return ls[k] || '';
+      } else if (navigator.cookieEnabled) {
+          var m = document.cookie.match(k+'=([^;]*)');
+          return (m && unescape(m[1])) || '';
+      } else {
+          return '';
+      }
+    }
+    Krux.user = retrieve('user');
+    Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
+    
+    
+  })();
+</script>
+    
+
+
+
+    
+    
+        <!-- Anti-flicker snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-NFBV92':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NFBV92');</script>
+
+<script async src="//hotlink.api.useinsider.com/ins.js?id=10001134"></script>
+
+    
+
+
+
+</head>
+    <body class="hotlink-site rebranded"><script type="text/javascript">
+(function() { var z="";var b="2866756e6374696f6e2829207b0d0a2066756e6374696f6e2067657453657373696f6e436f6f6b6965732829207b0d0a0976617220636f6f6b69654172726179203d206e657720417272617928293b0d0a0976617220634e616d65203d206e65772052656745787028275e5c5c733f696e6361705f7365735f27293b0d0a097661722063203d20646f63756d656e742e636f6f6b69652e73706c697428223b22293b0d0a09666f7220287661722069203d20303b2069203c20632e6c656e6774683b20692b2b29207b0d0a0909766172206b6579203d20635b695d2e73756273747228302c20635b695d2e696e6465784f6628223d2229293b0d0a09097661722076616c7565203d20635b695d2e73756273747228635b695d2e696e6465784f6628223d2229202b20312c20635b695d2e6c656e677468293b0d0a090969662028634e616d652e74657374286b65792929207b0d0a090909636f6f6b696541727261795b636f6f6b696541727261792e6c656e6774685d203d2076616c75653b0d0a09097d0d0a097d0d0a0972657475726e20636f6f6b696541727261793b0d0a207d0d0a2066756e6374696f6e20736574496e636170436f6f6b69652876417272617929207b0d0a09766172207265733b0d0a09747279207b0d0a090976617220636f6f6b696573203d2067657453657373696f6e436f6f6b69657328293b0d0a09097661722064696765737473203d206e657720417272617928636f6f6b6965732e6c656e677468293b0d0a0909666f7220287661722069203d20303b2069203c20636f6f6b6965732e6c656e6774683b20692b2b29207b0d0a090909646967657374735b695d203d2073696d706c6544696765737428764172726179202b20636f6f6b6965735b695d293b0d0a09097d0d0a0909726573203d20764172726179202b20222c6469676573743d22202b20646967657374732e6a6f696e28293b0d0a097d20636174636820286529207b0d0a0909726573203d20764172726179202b20222c6469676573743d22202b20656e636f6465555249436f6d706f6e656e7428652e746f537472696e672829293b0d0a097d0d0a09637265617465436f6f6b696528225f5f5f75746d7663222c207265732c203230293b0d0a207d0d0a2066756e6374696f6e2073696d706c65446967657374286d7973747229207b0d0a0976617220726573203d20303b0d0a09666f7220287661722069203d20303b2069203c206d797374722e6c656e6774683b20692b2b29207b0d0a0909726573202b3d206d797374722e63686172436f646541742869293b0d0a097d0d0a0972657475726e207265733b0d0a207d0d0a2066756e6374696f6e20637265617465436f6f6b6965286e616d652c2076616c75652c207365636f6e647329207b0d0a097661722065787069726573203d2022223b0d0a09696620287365636f6e647329207b0d0a09097661722064617465203d206e6577204461746528293b0d0a0909646174652e73657454696d6528646174652e67657454696d652829202b20287365636f6e6473202a203130303029293b0d0a09097661722065787069726573203d20223b20657870697265733d22202b20646174652e746f474d54537472696e6728293b0d0a097d0d0a09646f63756d656e742e636f6f6b6965203d206e616d65202b20223d22202b2076616c7565202b2065787069726573202b20223b20706174683d2f223b0d0a207d0d0a2066756e6374696f6e2074657374286f29207b0d0a0976617220726573203d2022223b0d0a0976617220764172726179203d206e657720417272617928293b0d0a09666f722028766172206a203d20303b206a203c206f2e6c656e6774683b206a2b2b29207b0d0a09207661722074657374203d206f5b6a5d5b305d3b0d0a092073776974636820286f5b6a5d5b315d29207b0d0a092009636173652022657869737473223a0d0a0909747279207b0d0a090909696628747970656f66286576616c2874657374292920213d3d2022756e646566696e656422297b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d7472756522293b0d0a0909097d0d0a090909656c73657b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d66616c736522293b0d0a0909097d0d0a09097d20636174636820286529207b0d0a0909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d66616c736522293b0d0a09097d0d0a0909627265616b3b0d0a090963617365202276616c7565223a0d0a09097472797b0d0a090909747279207b0d0a09090909726573203d206576616c2874657374293b0d0a09090909696628747970656f662872657329203d3d3d2022756e646566696e656422297b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d756e646566696e656422293b0d0a090909097d0d0a09090909656c736520696628726573203d3d3d206e756c6c297b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d6e756c6c22293b0d0a090909097d0d0a09090909656c7365207b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d22202b207265732e746f537472696e672829293b0d0a090909097d0909090d0a0909097d20636174636820286529207b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d63616e6e6f74206576616c7561746522293b0d0a09090909627265616b3b0d0a0909097d0d0a090909627265616b3b0d0a09097d0d0a0909636174636820286529207b0d0a0909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d22202b2065293b0d0a09097d0d0a0909627265616b3b0d0a0909636173652022706c7567696e5f657874656e74696f6e73223a0d0a0909747279207b0d0a09090976617220657874656e74696f6e73203d205b5d3b0d0a090909747279207b0d0a0909090969203d20657874656e74696f6e732e696e6465784f6628226922293b0d0a0909097d20636174636820286529207b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d696e6465784f66206973206e6f7420612066756e6374696f6e22293b0d0a09090909627265616b3b0d0a0909097d0d0a090909747279207b0d0a09090909766172206e756d203d206e6176696761746f722e706c7567696e732e6c656e6774683b0d0a09090909696620286e756d203d3d2030207c7c206e756d203d3d206e756c6c29207b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d6e6f20706c7567696e7322293b0d0a0909090909627265616b3b0d0a090909097d0d0a0909097d20636174636820286529207b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d63616e6e6f74206576616c7561746522293b0d0a09090909627265616b3b0d0a0909097d0d0a0909090d0a090909666f72202876617220693d303b693c6e6176696761746f722e706c7567696e732e6c656e6774683b692b2b29207b0d0a0909090969662028747970656f66286e6176696761746f722e706c7567696e735b695d29203d3d3d2022756e646566696e65642229207b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d706c7567696e735b695d20697320756e646566696e656422293b0d0a0909090909627265616b3b0d0a090909097d0d0a0d0a090909097661722066696c656e616d65203d206e6176696761746f722e706c7567696e735b695d2e66696c656e616d653b0d0a0909090976617220657874203d20226e6f20657874656e74696f6e223b0d0a0909090969662028747970656f662866696c656e616d6529203d3d3d2022756e646566696e65642229207b0d0a0909090909657874203d202266696c656e616d6520697320756e646566696e6564223b0d0a090909097d0d0a09090909656c7365206966202866696c656e616d652e73706c697428222e22292e6c656e677468203e203129207b0d0a0909090909657874203d2066696c656e616d652e73706c697428272e27292e706f7028293b0d0a090909097d0d0a0d0a0909090969662028657874656e74696f6e732e696e6465784f662865787429203c203029207b0d0a0909090909657874656e74696f6e732e7075736828657874293b0d0a090909097d090d0a0909097d0d0a0909090d0a090909666f7209287661722069203d20303b2069203c20657874656e74696f6e732e6c656e6774683b20692b2b29207b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d22202b20657874656e74696f6e735b695d293b0d0a0909097d0d0a09097d0d0a0909636174636820286529207b0d0a0909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d22202b2065293b0d0a09097d0d0a0909627265616b3b0d0a09207d0d0a097d0d0a0972657475726e207641727261792e6a6f696e28293b0d0a207d0d0a20766172206f203d205b0d0a095b226e6176696761746f72222c2022657869737473225d2c0d0a095b226e6176696761746f722e76656e646f72222c202276616c7565225d2c0d0a095b226e6176696761746f722e6170704e616d65222c202276616c7565225d2c0d0a095b226e6176696761746f722e706c7567696e732e6c656e6774683d3d30222c202276616c7565225d2c0d0a095b226e6176696761746f722e706c6174666f726d222c202276616c7565225d2c0d0a095b226e6176696761746f722e776562647269766572222c202276616c7565225d2c0d0a095b22706c6174666f726d222c2022706c7567696e5f657874656e74696f6e73225d2c0d0a095b22416374697665584f626a656374222c2022657869737473225d2c0d0a095b227765626b697455524c222c2022657869737473225d2c0d0a095b225f7068616e746f6d222c2022657869737473225d2c0d0a095b2263616c6c5068616e746f6d222c2022657869737473225d2c0d0a095b226368726f6d65222c2022657869737473225d2c0d0a095b2279616e646578222c2022657869737473225d2c0d0a095b226f70657261222c2022657869737473225d2c0d0a095b226f7072222c2022657869737473225d2c0d0a095b22736166617269222c2022657869737473225d2c0d0a095b22617765736f6d69756d222c2022657869737473225d2c0d0a095b2270756666696e446576696365222c2022657869737473225d2c0d0a095b225f5f6e696768746d617265222c2022657869737473225d2c0d0a095b22646f6d4175746f6d6174696f6e222c2022657869737473225d2c0d0a095b22646f6d4175746f6d6174696f6e436f6e74726f6c6c6572222c2022657869737473225d2c0d0a095b225f53656c656e69756d5f4944455f5265636f72646572222c2022657869737473225d2c0d0a095b22646f63756d656e742e5f5f7765626472697665725f7363726970745f666e222c2022657869737473225d2c0d0a095b22646f63756d656e742e246364635f6173646a666c617375746f70666876635a4c6d63666c5f222c2022657869737473225d2c0d0a095b2270726f636573732e76657273696f6e222c2022657869737473225d2c0d0a095b226e6176696761746f722e637075436c617373222c2022657869737473225d2c0d0a095b226e6176696761746f722e6f73637075222c2022657869737473225d2c0d0a095b226e6176696761746f722e636f6e6e656374696f6e222c2022657869737473225d2c0d0a095b226e6176696761746f722e6c616e67756167653d3d274327222c202276616c7565225d2c0d0a095b2277696e646f772e6f7574657257696474683d3d30222c202276616c7565225d2c0d0a095b2277696e646f772e6f757465724865696768743d3d30222c202276616c7565225d2c0d0a095b2277696e646f772e576562474c52656e646572696e67436f6e74657874222c2022657869737473225d2c0d0a095b22646f63756d656e742e646f63756d656e744d6f6465222c202276616c7565225d2c0d0a095b226576616c2e746f537472696e6728292e6c656e677468222c202276616c7565225d0d0a5d3b0d0a20747279207b0d0a09736574496e636170436f6f6b69652874657374286f29293b0d0a09646f63756d656e742e637265617465456c656d656e742822696d6722292e737263203d20222f5f496e63617073756c615f5265736f757263653f53574b4d544653523d3126653d22202b204d6174682e72616e646f6d28293b0d0a207d20636174636820286529207b0d0a09696d67203d20646f63756d656e742e637265617465456c656d656e742822696d6722293b0d0a09696d672e737263203d20222f5f496e63617073756c615f5265736f757263653f53574b4d544653523d3126653d22202b20653b0d0a207d0d0a7d2928293b0d0a";eval((function(){for (var i=0;i<b.length;i+=2){z+=String.fromCharCode(parseInt(b.substring(i,i+2),16));} return z;})());})();
+</script>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFBV92" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+    
+    
+    
+
+    
+        
+
+        
+        
+        
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+<div class="rebrand">
+  <header class="header-phase-one" data-cmp-is="header-phase-1">
+    <nav>
+
+      
+      
+      
+        
+      
+
+      <div class="level-zero show">
+        <div class="level-zero-container container">
+          <ul class="category-page">
+            
+              
+              <li><a href="http://www.maxis.com.my/whats-new.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','consumer')">consumer</a></li>
+            
+              
+              <li><a href="http://business.maxis.com.my/Business.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','business')">business</a></li>
+            
+              
+              <li><a href="/en/whats-new.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','hotlink')" class="active">hotlink</a></li>
+            
+          </ul>
+
+          <div class="level-zero-right">
+            
+
+            
+
+            
+              <ul class="language">
+                
+    
+        
+            
+                <li id="toggle-en" class="active language-btn"><a href="/en/whats-new.html">EN </a></li>
+            
+                <li id="toggle-bm" class=" language-btn"><a href="/ms/whats-new.html">BM </a></li>
+            
+        
+
+    
+
+
+              </ul>
+            
+          </div>
+        </div>
+      </div>
+
+
+      
+
+      <div class="level-one container">
+        <div class="level-one-container">
+          <ul>
+            <li class="menu-btn"><img src="/content/dam/mxs/rebrand/header-icons/hamburger.svg" alt="Menu Button" id="open-menu"/></li>
+            
+              
+              <li class="level-one-links"><a href="/en/plan/hotlink-prepaid.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','PREPAID')">PREPAID</a></li>
+            
+              
+              <li class="level-one-links"><a href="/en/plan/hotlink-postpaid.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','POSTPAID')">POSTPAID</a></li>
+            
+              
+              <li class="level-one-links"><a href="/en/mobile-app/hotlink-app.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','MOBILE APP')">MOBILE APP</a></li>
+            
+            
+            
+
+            
+              <li class="search-btn" data-toggle="modal" data-target="#searchmodalda6ef641-c96e-42f2-8dc9-76f789405356"><img src="/content/dam/mxs/rebrand/header-icons/search.svg" alt="Search"/><span>search</span></li>
+            
+          </ul>
+
+          <a href="/en/whats-new.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Logo')">
+            <img src="/content/dam/mxs/rebrand/hotlink-logo.svg" alt="Maxis Logo" class="logo"/>
+          </a>
+        </div>
+      </div>
+      <div class="nav-overlay">
+        <div class="nav-body container">
+          <div class="nav-content">
+            <div class="close-btn">
+              <img src="/content/dam/mxs/rebrand/header-icons/close.svg" alt="Close Button" id="close-menu"/>
+            </div>
+            
+            <div class="nav-list-container row">
+              <div class="main-menu-alpha col-12">
+                <ul class="level-one-list">
+                  
+                    <li data-attr="mobile-plans">
+                      
+                      
+                        <span>Mobile Plans</span>
+                      
+
+                      
+                        <img src="/content/dam/mxs/rebrand/chevron-right.svg" class="chevron-image"/>
+                      
+                    </li>
+                  
+                    <li data-attr="mobile-fibre">
+                      
+                      
+                        <span>Mobile &amp; Fibre Plans</span>
+                      
+
+                      
+                        <img src="/content/dam/mxs/rebrand/chevron-right.svg" class="chevron-image"/>
+                      
+                    </li>
+                  
+                    <li data-attr="lifestyle">
+                      
+                      
+                        <span>Lifestyle</span>
+                      
+
+                      
+                        <img src="/content/dam/mxs/rebrand/chevron-right.svg" class="chevron-image"/>
+                      
+                    </li>
+                  
+                    <li data-attr="service">
+                      
+                      
+                        <span>Service</span>
+                      
+
+                      
+                        <img src="/content/dam/mxs/rebrand/chevron-right.svg" class="chevron-image"/>
+                      
+                    </li>
+                  
+                    <li data-attr="support">
+                      
+                      
+                        <span>Support</span>
+                      
+
+                      
+                        <img src="/content/dam/mxs/rebrand/chevron-right.svg" class="chevron-image"/>
+                      
+                    </li>
+                  
+                    <li data-attr="switch">
+                      
+                        <a href="/en/plan/switch-to-hotlink.html"><span>Switch to Hotlink</span></a>
+                      
+                      
+
+                      
+                        <img src="/content/dam/mxs/rebrand/chevron-right.svg" class="chevron-image"/>
+                      
+                    </li>
+                  
+                </ul>
+                <div class="inner-level-accessibility">
+                  
+
+                  <div class="inner-level-search-btn" data-toggle="modal" data-target="#searchmodalda6ef641-c96e-42f2-8dc9-76f789405356">
+                    <img src="/content/dam/mxs/rebrand/header-icons/search.svg" alt="Search"/>
+                    <span>search</span>
+                  </div>
+                </div>
+                <ul class="mobile-level-zero">
+                  
+                    
+                    <li><a href="http://www.maxis.com.my/whats-new.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','consumer')">consumer</a></li>
+                  
+                    
+                    <li><a href="http://business.maxis.com.my/Business.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','business')">business</a></li>
+                  
+                    
+                    <li class="active"><a href="/en/whats-new.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','hotlink')">hotlink</a></li>
+                  
+                </ul>
+                
+                  <ul class="mobile-level-zero-language">
+                    
+    
+        
+            
+                <li id="toggle-en" class="active language-btn"><a href="/en/whats-new.html">EN </a></li>
+            
+                <li id="toggle-bm" class=" language-btn"><a href="/ms/whats-new.html">BM </a></li>
+            
+        
+
+    
+
+
+                  </ul>
+                
+
+              </div>
+              <div class="sub-menu-alpha col-12">
+                <div class="sub-menu-content">
+                  <div class="level-two-back-btn">BACK</div>
+
+                  
+                    
+                    <ul data-id="mobile-plans" class="display-level-two-menu">
+                      
+                        
+                        <li><a href="/en/plan/hotlink-prepaid-unlimited.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Hotlink Prepaid Unlimited')">Hotlink Prepaid Unlimited</a></li>
+                      
+                        
+                        <li><a href="/en/plan/hotlink-prepaid-video.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Hotlink Prepaid Video')">Hotlink Prepaid Video</a></li>
+                      
+                        
+                        <li><a href="/en/plan/hotlink-postpaid.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Hotlink Postpaid')">Hotlink Postpaid</a></li>
+                      
+                        
+                        <li><a href="/en/plan/tourism-sim.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Hotlink Tourist SIM')">Hotlink Tourist SIM</a></li>
+                      
+                        
+                        <li><a href="/en/plan/mobile-internet-pass.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Mobile Internet Pass')">Mobile Internet Pass</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/rewards/hotlink-mu.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','HotlinkMU')">HotlinkMU</a></li>
+                      
+                        
+                        <li><a href="http://www.maxis.com.my/about-maxis/maxis-network.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Network')">Network</a></li>
+                      
+                    </ul>
+                  
+                    
+                    <ul data-id="mobile-fibre" class="display-level-two-menu">
+                      
+                        
+                        <li><a href="/en/plan/hotlink-postpaid-and-fibre.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Hotlink Postpaid and Fibre')">Hotlink Postpaid and Fibre</a></li>
+                      
+                    </ul>
+                  
+                    
+                    <ul data-id="lifestyle" class="display-level-two-menu">
+                      
+                        
+                        <li><a href="/en/lifestyle/entertainment/maxis-tv.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Maxis TV')">Maxis TV</a></li>
+                      
+                        
+                        <li><a href="/en/mobile-app/hotlink-app.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Hotlink app')">Hotlink app</a></li>
+                      
+                        
+                        <li><a href="/en/mobile-app/hotlink-postpaid-app.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Hotlink Postpaid app')">Hotlink Postpaid app</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/rewards.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Hotlink Rewards')">Hotlink Rewards</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/services/operator-billing.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Google Play Carrier Billing')">Google Play Carrier Billing</a></li>
+                      
+                        
+                        <li><a href="http://www.maxis.com.my/lifestyle/entertainment/apple-carrier-billing.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Apple Carrier Billing')">Apple Carrier Billing</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/games.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Games')">Games</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/entertainment/music-unlimited.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Music')">Music</a></li>
+                      
+                    </ul>
+                  
+                    
+                    <ul data-id="service" class="display-level-two-menu">
+                      
+                        
+                        <li><a href="/en/lifestyle/roaming-n-idd/roaming.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','International Roaming')">International Roaming</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/roaming-n-idd/idd.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','IDD - International Direct Dial')">IDD - International Direct Dial</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/services/satu-aatu.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Ask-A-Top-Up or Share-A-Top-Up')">Ask-A-Top-Up or Share-A-Top-Up</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/services/sos-top-up.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','SOS Kredit')">SOS Kredit</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/services/call-me-alert.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Call Me Alert')">Call Me Alert</a></li>
+                      
+                        
+                        <li><a href="/en/lifestyle/services/message-plus.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Message Plus')">Message Plus</a></li>
+                      
+                    </ul>
+                  
+                    
+                    <ul data-id="support" class="display-level-two-menu">
+                      
+                        
+                        <li><a href="/en/support.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','FAQ')">FAQ</a></li>
+                      
+                        
+                        <li><a href="/en/terms-conditions/hotlink.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Terms & Conditions')">Terms &amp; Conditions</a></li>
+                      
+                        
+                        <li><a href="/en/store-locator.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Find a Store')">Find a Store</a></li>
+                      
+                    </ul>
+                  
+                    
+                    <ul data-id="switch" class="display-level-two-menu">
+                      
+                        
+                        <li><a href="/en/plan/switch-to-hotlink.html" onclick="gaMaxisEvents.pushInDataLayer(this,'Header Navigation Menu','Click Event','Switch to Hotlink')">Switch to Hotlink</a></li>
+                      
+                    </ul>
+                  
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+
+<div>
+  
+
+
+
+
+
+
+
+
+</div>
+<div>
+  
+
+
+
+    
+    
+    <div class="html-component">
+
+
+
+
+
+
+    <script type="text/javascript">
+    $(document).ready( function() {
+
+        function pushCookies (cname, cvalue) {
+            var now = new Date();
+            var expire = new Date();
+            expire.setFullYear(now.getFullYear());
+            expire.setMonth(now.getMonth());
+            expire.setDate(now.getDate());
+            expire.setHours(23,59,59,0);
+            var expireString = ";expires="
+            var path = ";path=/"
+            document.cookie = cname+"="+cvalue+ expireString + expire.toGMTString() + path;    
+        }
+
+        var ua = navigator.userAgent.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i),
+            browser;
+        if (navigator.userAgent.match(/Trident.*rv[ :]*11\./i)) {
+            browser = "msie";
+            if ($('.modal-notification.stateful').length) {
+                $('.modal-notification.stateful').addClass('d-none')
+                console.log('1 length',$('.modal-backdrop').length)
+                $('.modal-notification.stateful').find('.mxs-modal').modal('hide');
+            }
+            if (document.cookie.replace(/(?:(?:^|.*;\s*)ieCookie\s*\=\s*([^;]*).*$)|^.*$/, "$1") != "") {
+                $('.ie-notification').find('.mxs-modal').modal('hide');
+                if ($('.modal-notification.stateful').length) {
+                    $('.modal-notification.stateful').removeClass('d-none')
+                }
+            }else{
+                setTimeout(function(){
+                    $('.modal-notification.stateful').find('.mxs-modal').modal('hide');
+                    $('.ie-notification').find('.mxs-modal').modal('show');
+                    if ($('.modal-notification.stateful').length) {
+                        console.log('modal length:', $('.modal-backdrop').length)
+                        $('.modal-backdrop').addClass('d-none')
+                        $('.mxs-modal').each( function() {
+                            $(this).on('click', function(){
+                                $('.modal-notification.stateful').removeClass('d-none')
+                            })
+                        })
+                    }
+                }, 1500, callbackf());
+                
+            }
+        }
+
+       function callbackf(){
+        $($('.modal-backdrop')[0]).removeClass('d-none')
+       }
+
+        $('.ie-notification').find('.close').each( function() {
+            $(this).on('click', function() {
+                $(this).closest('.ie-notification').fadeOut()
+                pushCookies('ieCookie', 'exist')
+                if ($('.modal-notification.stateful').length) {
+                    $('.modal-notification.stateful').removeClass('d-none')
+                    $($('.modal-backdrop')[0]).removeClass('d-none')
+                }
+            })
+        })
+
+  $('.modal').on('show.bs.modal', function (e) {
+    $('main').css({ transform: 'unset' });
+  });
+
+    });
+</script>
+
+
+
+    <style>
+  .rebranded .btn-secondary:not(:disabled):not(.disabled):active,
+  .rebranded .btn-secondary:not(:disabled):not(.disabled):active:focus {
+    background-color: black
+  }
+
+  .ie-notification .mxs-modal .modal-content .modal-footer {
+    margin-bottom: 15px;
+  }
+
+  .ie-notification .mxs-modal .close {
+    top: auto;
+    margin-right: 30px !important;
+  }
+
+  .text-input .mxs-tel .placeholder-number {
+    top: 14px;
+  }
+
+  .pricing-table .price-table h2 span,
+  .pricing-table .price-table-add-on h2 span,
+  .pricing-table .price-table h2,
+  .pricing-table .price-table-add-on h2,
+  .pricing-table .price-table h4 span,
+  .pricing-table .price-table-add-on h4 span,
+  .pricing-table .price-table h4,
+  .pricing-table .price-table-add-on h4 {
+    font-size: 20px;
+  }
+
+  .cross-sell .slide .box .text p {
+    font-size: 16px;
+  }
+
+  .hotlink-site.rebranded .btn-primary-outline,
+  .hotlink-site.rebranded .btn-secondary-outline {
+    color: #000000 !important;
+    border: 1px solid #000000 !important;
+  }
+
+
+  .hotlink-site.rebranded .btn-white-outline {
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+  }
+
+ // .rebrand .btn:not(.dropdown-toggle):after {
+    top: 16px !important;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .rebranded .btn:not(.dropdown-toggle):not(.btn-text) span {
+      letter-spacing: 0.5px
+    }
+
+    .hotlink-site.rebranded .btn:active:after,
+    .hotlink-site.rebranded .btn:focus:after {
+      letter-spacing: 0.5px;
+    }
+
+    .btn:not(.dropdown-toggle) {
+      padding: 15px 15px 17px !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+    .rebrand .btn:not(.dropdown-toggle):after {
+      letter-spacing: 1.5px;
+    }
+
+    .hotlink-site.rebranded .btn:active:after,
+    .hotlink-site.rebranded .btn:focus:after {
+      letter-spacing: 1.5px;
+    }
+
+    .rebranded .btn:not(.dropdown-toggle):not(.btn-text) span {
+      letter-spacing: 1.5px;
+    }
+
+    .rebranded .btn-primary:not(:disabled):not(.disabled):active,
+    .rebranded .btn-primary:not(:disabled):not(.disabled):active:focus {
+      background-color: #000000;
+    }
+
+  }
+
+  .rebrand .cmp-notification-message .container-fluid .slick-dots li button::before {
+    opacity: 1;
+    color: #dcdcdc;
+  }
+
+  .rebrand .cmp-notification-message .container-fluid .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #ffffff;
+  }
+
+  .tab-container.light .nav-tabs .nav-link {
+    border: 0;
+    border-bottom: 3px solid transparent;
+  }
+
+  .rebranded .btn:disabled,
+  .rebranded .btn[disabled] {
+    color: #fff !important;
+    background-color: #000 !important;
+  }
+
+  .rebranded .btn:disabled span,
+  .rebranded .btn[disabled] span {
+    color: inherit !important;
+    visibility: visible !important;
+  }
+
+@media only screen and (max-width: 768px) {
+.rebranded .container>.d-flex>div {
+    width: 100% !important;
+}
+}
+
+.rebrand .col-auto {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 auto !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+}
+</style>
+</div>
+
+
+
+</div>
+
+  <div id="searchmodalda6ef641-c96e-42f2-8dc9-76f789405356" class="modal fade mxs-modal" data-src="/content/hotlink/en/admin/modal/searchmodal/jcr:content/content.html" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <i class="material-icons" aria-hidden="true">close</i></button><div class="modal-body"></div></div></div></div>
+
+            
+
+            
+
+            
+        
+    
+
+
+<main>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+</div>
+    <div>
+
+
+
+    
+    
+    <div class="notification-message">
+
+
+<div class="rebrand">
+  <div class="cmp-notification-message" data-cmp-is="notification-message">
+    <div class="container-fluid" style="background-color: #ff0100">
+      <div class="container">
+        <div class="row justify-content-center position-relative">
+          <div class="col-12 col-lg-9 col-xl-8 position-relative">
+            <div class="wrapper">
+            
+              <div class="ticker">
+                <div>
+                  <div class="message">
+                    <p class="d-none d-lg-inline"><span class="small">Read about the updates to the FREE 1GB offer</span></p>
+                    <p class="d-inline d-lg-none"><span class="small">Read about the updates to the FREE 1GB offer</span></p>
+                    <a href="http://www.maxis.com.my/campaigns/stay-home-stay-connected/free-1gb.html" data-gacategory="Notification Message" onclick="gaMaxisEvents.pushInDataLayer(this,`here.`,`free 1gb`)">
+                      <span>here.</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            <div class="notification-dots"></div>
+          </div>
+          <button type="button" class="close" aria-label="Close" data-gacategory="Notification Message" onclick="gaMaxisEvents.pushInDataLayer(this,'Notification Message','Close','Notification Message')">
+            <img aria-hidden="true" src="/etc.clientlibs/mxs/clientlibs/rebrand/resources/images/icon/close.svg"/>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start  bg-position-mc m-bg-position-mc" data-m-height="550" data-d-height="400" data-mobile-src="/content/dam/hotlink/images/homepage/herobanner-prepaid-unlimited-video-mobile.png" data-desktop-src="/content/dam/hotlink/images/homepage/herobanner-prepaid-unlimited-video.jpg" data-gaTitle="Prepaid Unlimited" data-slot="Middle-Center">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-center  " style="background-color: ;">
+        <div style="width:90%">
+            
+            
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-end  " style="background-color: ;">
+        <div style="width:40%">
+            
+            
+
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 30px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:30px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:20px"></div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h2><span style="color: #ffffff;">All-New Hotlink Prepaid. Truly Unlimited Internet &amp; Calls.</span></h2>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div>
+    <p><span style="color: #ffffff;">Power up the things you like - the way you like.</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="cta-button">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            <div class="text-left">
+                
+                
+                    
+                    <a id="find-out-more-1609601358" href="/en/plan/hotlink-prepaid-unlimited.html" data-gacategory="Image Tile" onclick="gaEvents.pushInDataLayer(this,'Image Tile','Find out more','Prepaid Unlimited')" class="btn btn-primary   " data-hover="Find out more">
+                        <span>Find out more</span>
+                        
+                    </a>
+                
+            </div>
+            
+            
+        
+        
+
+        
+        
+        
+    
+    
+
+
+
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 30px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:30px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:15px"></div>
+</div>
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start  bg-position-mc m-bg-position-mc" data-m-height="550" data-d-height="400" data-mobile-src="/content/dam/hotlink/images/plan/hotlink-postpaid/hotlink-postpaid-herobanner-mobile.jpg" data-desktop-src="/content/dam/hotlink/images/plan/hotlink-postpaid/hotlink-postpaid-herobanner-desktop.jpg" data-gaTitle="Hotlink Postpaid" data-slot="Middle-Center">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-center  " style="background-color: ;">
+        <div style="width:90%">
+            
+            
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-start  " style="background-color: ;">
+        <div style="width:40%">
+            
+            
+
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 70px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:70px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:20px"></div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h2><span style="color: #ffffff;">Brand new Vivo Y11, now for RM1 only with Hotlink Postpaid!</span></h2>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 10px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:10px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:1px"></div>
+</div>
+
+
+    
+    
+    <div class="cta-button">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            <div class="text-left">
+                
+                
+                    
+                    <a id="find-out-more--1516457404" href="/en/plan/hotlink-postpaid.html" data-gacategory="Image Tile" onclick="gaEvents.pushInDataLayer(this,'Image Tile','Find out more','Hotlink Postpaid')" class="btn btn-primary   " data-hover="Find out more">
+                        <span>Find out more</span>
+                        
+                    </a>
+                
+            </div>
+            
+            
+        
+        
+
+        
+        
+        
+    
+    
+
+
+
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 30px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:30px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:15px"></div>
+</div>
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start  bg-position-mc m-bg-position-mc" data-m-height="630" data-d-height="400" data-mobile-src="/content/dam/hotlink/images/lifestyle/maxixtv/maxis-tv-herobanner-mobile.jpg" data-desktop-src="/content/dam/hotlink/images/lifestyle/maxixtv/maxis-tv-herobanner-desktop.jpg" data-gaTitle="Maxis TV" data-slot="Middle-Center">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-center  " style="background-color: ;">
+        <div style="width:90%">
+            
+            
+
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start bg-size-auto bg-position-ml m-bg-position-ml" data-m-height="60" data-d-height="60" data-desktop-src="/content/dam/mxs/images/tv-now/landing-banner/maxisTV-logo-v4.png" data-gaTitle="Maxis TV masthead" data-slot="Middle-Left">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h2 style="color: #000;">Enjoy endless movies<br>
+on MUBI now! Free<br>
+3 months access + <br>
+30GB internet.</h2>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="cta-button">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            <div class="text-left">
+                
+                
+                    
+                    <a id="find-out-more-825948982" href="/en/lifestyle/entertainment/maxis-tv.html" data-gacategory="Image Tile" onclick="gaEvents.pushInDataLayer(this,'Image Tile','Find out more','Maxis TV')" class="btn btn-primary   " data-hover="Find out more">
+                        <span>Find out more</span>
+                        
+                    </a>
+                
+            </div>
+            
+            
+        
+        
+
+        
+        
+        
+    
+    
+
+
+
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 30px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:30px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:15px"></div>
+</div>
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start  bg-position-mc m-bg-position-mc" data-m-height="650" data-d-height="360" data-mobile-src="/content/dam/hotlink/images/lifestyle/Rewards/hotlink-rewards-revamped-hero-banner-mobile.jpg" data-desktop-src="/content/dam/hotlink/images/lifestyle/Rewards/hotlink-rewards-revamped-hero-banner-desktop.jpg" data-gaTitle="Hotlink Rewards" data-slot="Middle-Center">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-center  " style="background-color: ;">
+        <div style="width:90%">
+            
+            
+
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 70px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:70px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:60px"></div>
+</div>
+
+
+    
+    
+    <div class="columnControl">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="column-control   type-i      ">
+         <div class="row no-gutters row-eq-height" style="background-color: ;">
+            <div class="col">
+                <div>
+                	
+
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h2><span style="color: #ffffff;">Grab FREE Prizes Daily with Hotlink Rewards</span></h2>
+
+</div>
+</div>
+
+
+
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                	
+
+
+
+
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                	
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="cta-button">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            <div class="text-left">
+                
+                
+                    
+                    <a id="find-out-more--1516457404" href="/en/lifestyle/rewards.html" data-gacategory="Image Tile" onclick="gaEvents.pushInDataLayer(this,'Image Tile','Find out more','Hotlink Postpaid Flex')" class="btn btn-primary   " data-hover="Find out more">
+                        <span>Find out more</span>
+                        
+                    </a>
+                
+            </div>
+            
+            
+        
+        
+
+        
+        
+        
+    
+    
+
+
+
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+    
+    
+    <div class="columnControl">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="column-control  type-a side-margin-sm     ">
+        <div class="row no-gutters" style="background-color: ;">
+            <div class="col">
+            	<div>
+                	
+
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 25px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:25px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:15px"></div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h3 style="text-align: center;"><span style="color: #e10000;">You might love these too</span></h3>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 25px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:25px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:15px"></div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="columnControl">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="column-control   type-b      ">
+        <div class="row no-gutters" style="background-color: ;">
+            <div class="col">
+                <div>
+                	
+
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start  bg-position-mc m-bg-position-mc" data-m-height="500" data-d-height="360" data-mobile-src="/content/dam/hotlink/images/lifestyle/Rewards/hotlink-mu/hotlink-mu-revamp-herobanner-mobile.jpg" data-desktop-src="/content/dam/hotlink/images/lifestyle/Rewards/hotlink-mu/hotlink-mu-revamp-cross-sell-tile.jpg" data-gaTitle="Maxis MU" data-slot="Middle-Center">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-center  " style="background-color: ;">
+        <div style="width:95%">
+            
+            
+
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 30px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:30px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:20px"></div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h3><span style="color: #ffffff;">Get your personalised<br>
+HotlinkMU deals&nbsp;</span></h3>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <p><span style="color: #ffffff;">Have your high speed internet<br>
+your way, everyday!&nbsp;</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="cta-button">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            <div class="text-left">
+                
+                
+                    
+                    <a id="find-out-more-825948982" href="/en/lifestyle/rewards/hotlink-mu.html" data-gacategory="Image Tile" onclick="gaEvents.pushInDataLayer(this,'Image Tile','Find out more','HotlinkMU')" class="btn btn-primary   " data-hover="Find out more">
+                        <span>Find out more</span>
+                        
+                    </a>
+                
+            </div>
+            
+            
+        
+        
+
+        
+        
+        
+    
+    
+
+
+
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                	
+
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start  bg-position-tc m-bg-position-mc" data-m-height="500" data-d-height="360" data-mobile-src="/content/dam/hotlink/images/mobile-app/hotlink-app/hotlink-app-banner-mbl.jpg" data-desktop-src="/content/dam/hotlink/images/mobile-app/hotlink-app/hotlink-app-banner-tile.jpg" data-gaTitle="Hotlink app" data-slot="Top-Center">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-center  " style="background-color: ;">
+        <div style="width:90%">
+            
+            
+
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 30px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:30px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:20px"></div>
+</div>
+
+
+    
+    
+    <div class="columnControl">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="column-control   type-f      ">
+        <div class="row no-gutters" style="background-color: ;">
+            <div class="col">
+                <div>
+                	
+
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h3><span style="color: #ffffff;">Your All in One App for Everything Hotlink</span></h3>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <p><span style="color: #ffffff;">Download the Hotlink app today and enjoy the best <br>
+deals, rewards, instant top-ups and many more <br>
+awesome stuff, all at your <br>
+ fingertips.</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="cta-button">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            <div class="text-left">
+                
+                
+                    
+                    <a id="find-out-more-694216524" href="/en/mobile-app/hotlink-app.html" target="_blank" data-gacategory="Image Tile" onclick="gaEvents.pushInDataLayer(this,'Image Tile','Find out more','Hotlink app')" class="btn btn-primary   " data-hover="Find out more">
+                        <span>Find out more</span>
+                        
+                    </a>
+                
+            </div>
+            
+            
+        
+        
+
+        
+        
+        
+    
+    
+
+
+
+
+
+</div>
+
+
+
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                	
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="columnControl">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="column-control   type-b      ">
+        <div class="row no-gutters" style="background-color: ;">
+            <div class="col">
+                <div>
+                	
+
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start  bg-position-mc m-bg-position-bc" data-m-height="600" data-d-height="360" data-mobile-src="/content/dam/hotlink/images/plan/hotlink-postpaid-fibre/hotlink-postpaid-fibre-banner-mbl.png" data-desktop-src="/content/dam/hotlink/images/plan/hotlink-postpaid-fibre/hotlink-postpaid-fibre-banner-tile.png" data-gaTitle="Hotlink Postpaid &amp; Fibre" data-slot="Middle-Center">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-center  " style="background-color: ;">
+        <div style="width:90%">
+            
+            
+
+
+
+    
+    
+    <div class="columnControl">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="column-control   type-f      ">
+        <div class="row " style="background-color: ;">
+            <div class="col">
+                <div>
+                	
+
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 40px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:40px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:60px"></div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h3>Get unlimited internet for<br>
+your home with Hotlink<br>
+Postpaid &amp; Fibre</h3>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="cta-button">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            <div class="text-left">
+                
+                
+                    
+                    <a id="find-out-more-1526787029" href="/en/plan/hotlink-postpaid-and-fibre.html" data-gacategory="Image Tile" onclick="gaEvents.pushInDataLayer(this,'Image Tile','Find out more','Hotlink Postpaid & Fibre')" class="btn btn-primary   " data-hover="Find out more">
+                        <span>Find out more</span>
+                        
+                    </a>
+                
+            </div>
+            
+            
+        
+        
+
+        
+        
+        
+    
+    
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 1px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:1px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:5px"></div>
+</div>
+
+
+
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                	
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 1px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:1px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:10px"></div>
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                	
+
+
+
+    
+    
+    <div class="tile-image-comp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex  image-tile justify-content-start  bg-position-mc m-bg-position-mc" data-m-height="500" data-d-height="360" data-mobile-src="/content/dam/hotlink/images/plan/mobile-internet-pass/hotlink-MI-banner-mbl.png" data-desktop-src="/content/dam/hotlink/images/plan/mobile-internet-pass/hotlink-MI-banner-tile.png" data-gaTitle="Mobile Internet Pass" data-slot="Middle-Center">
+        <div class="tile-content">
+            <div style="min-width: 0px;">
+
+
+
+    
+    
+    <div class="section-container">
+
+
+
+
+
+
+
+
+
+<div class="container full   ">
+    <div class="d-flex justify-content-center  " style="background-color: ;">
+        <div style="width:90%">
+            
+            
+
+
+
+    
+    
+    <div class="empty-gap">
+
+
+
+    <div class="d-none d-lg-block" style="padding-bottom: 30px"></div>
+    <div class="d-none d-sm-block d-md-block d-lg-none" style="padding-bottom:30px"></div>
+    <div class="d-block d-sm-none" style="padding-bottom:20px"></div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <h3><span style="color: #ffffff;">Power up your internet to do<br>
+more of what you like!</span></h3>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="text parbase">
+
+<div class="ignore-break ">
+    <p><span style="color: #ffffff;">YouTubers. Gamers. Social butterflies.&nbsp;<br>
+There’s an internet pass for everyone.</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="cta-button">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            <div class="text-left">
+                
+                
+                    
+                    <a id="find-out-more--2144349053" href="/en/plan/mobile-internet-pass.html" data-gacategory="Image Tile" onclick="gaEvents.pushInDataLayer(this,'Image Tile','Find out more','Mobile Internet Pass')" class="btn btn-primary   " data-hover="Find out more">
+                        <span>Find out more</span>
+                        
+                    </a>
+                
+            </div>
+            
+            
+        
+        
+
+        
+        
+        
+    
+    
+
+
+
+
+
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+    
+    
+    
+
+    
+    
+    <div class="html-component">
+
+
+
+
+    <h1 class="d-none">Hotlink: Non-Stop Internet on the No.1 5G Network</h1>
+
+
+
+    <script> // JS code write here </script>
+
+
+
+    <style> // CSS code write here </style>
+</div>
+
+
+</div>
+      <div class="chat">
+    
+    
+    
+        
+        
+    
+    <div class="button-holder clearfix">
+        
+        
+    </div>
+</div>
+
+</main>
+
+
+
+    
+    
+    
+        
+
+        
+        
+        
+            <div class="rebrand">
+                <footer>
+                    
+
+
+<div class="main-container">
+    <div class="row">
+        <div class="row col-xl-4 col-md-12">
+            <div class="app-container col-xl-12 col-lg-3 col-md-4 col-sm-12">
+                
+                    <p class="title">Download Hotlink app</p>
+                    <div class="app-listing">
+                        
+                            <a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Apple app')" href="https://apps.apple.com/my/app/hotlink-red/id920042643" target="_blank" rel="noopener"><img src="/content/dam/mxs/rebrand/footer-icons/app-icons/appstore.svg"/></a>
+                        
+                            <a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Google app')" href="https://play.google.com/store/apps/details?id=my.com.maxis.hotlink.production&hl=en" target="_blank" rel="noopener"><img src="/content/dam/mxs/rebrand/footer-icons/app-icons/playstore.svg"/></a>
+                        
+                            <a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Huawei app')" href="https://appgallery.cloud.huawei.com/marketshare/app/C100424301?locale=en_GB" target="_blank" rel="noopener"><img src="/content/dam/mxs/rebrand/footer-icons/app-icons/huaweistore.svg"/></a>
+                        
+                    </div>
+                
+            </div>
+            <div class="social-container col-xl-12 col-lg-9 col-md-8 col-sm-12">
+                
+                    <p class="title">Follow Us</p>
+                    <div class="social-listing">
+                        
+                            <a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Facebook')" href="https://www.facebook.com/hotlink/" target="_blank" rel="noopener"><img src="/content/dam/mxs/rebrand/footer-icons/social-icons/facebook.svg"/></a>
+                        
+                            <a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Twitter')" href="https://twitter.com/hotlinklistens" target="_blank" rel="noopener"><img src="/content/dam/mxs/rebrand/footer-icons/social-icons/twitter.svg"/></a>
+                        
+                            <a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Instagram')" href="https://www.instagram.com/hotlinkred/" target="_blank" rel="noopener"><img src="/content/dam/mxs/rebrand/footer-icons/social-icons/instagram.svg"/></a>
+                        
+                            <a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','YouTube')" href="https://www.youtube.com/channel/UC3ZDTsLzVinoIkJ6swyYRZw" target="_blank" rel="noopener"><img src="/content/dam/mxs/rebrand/footer-icons/social-icons/youtube.svg"/></a>
+                        
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="site-list row col-xl-8 col-md-12">
+            
+                <ul class="col-lg-3 col-md-12 col-sm-12">
+                    <li class="title expand-title collapsed" data-toggle="collapse" data-target="#footer1">Hotlink<img src="/content/dam/mxs/rebrand/footer-icons/expand.svg" class="expand-icon"/></li>
+                    <li id="footer1" class="dont-collapse-lg collapse">
+                        <ul class="expand-list">
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','About Maxis')" href="http://www.maxis.com.my/about-maxis.html">About Maxis</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Newsroom')" href="http://www.maxis.com.my/about-maxis/newsroom.html">Newsroom</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Maxis')" href="http://www.maxis.com.my/whats-new.html">Maxis</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Business')" href="http://business.maxis.com.my/mobile-plans/postpaid-plan-s.html">Business</a>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            
+                <ul class="col-lg-3 col-md-12 col-sm-12">
+                    <li class="title expand-title collapsed" data-toggle="collapse" data-target="#footer2">Support<img src="/content/dam/mxs/rebrand/footer-icons/expand.svg" class="expand-icon"/></li>
+                    <li id="footer2" class="dont-collapse-lg collapse">
+                        <ul class="expand-list">
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Find A Store')" href="/en/store-locator.html">Find A Store</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','FAQ')" href="/en/support.html">FAQ</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Terms & Conditions')" href="/en/terms-conditions/hotlink.html">Terms &amp; Conditions</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Hotlink app')" href="/en/mobile-app/hotlink-app.html">Hotlink app</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Hotlink Postpaid app')" href="/en/mobile-app/hotlink-postpaid-app.html">Hotlink Postpaid app</a>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            
+                <ul class="col-lg-3 col-md-12 col-sm-12">
+                    <li class="title expand-title collapsed" data-toggle="collapse" data-target="#footer3">Important Info<img src="/content/dam/mxs/rebrand/footer-icons/expand.svg" class="expand-icon"/></li>
+                    <li id="footer3" class="dont-collapse-lg collapse">
+                        <ul class="expand-list">
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Privacy Policy')" href="/en/privacy-statement.html">Privacy Policy</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Terms of Use')" href="/en/terms-of-use.html">Terms of Use</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','Phishing and Scam Protection')" href="http://www.maxis.com.my/phishing-scam.html">Phishing and Scam Protection</a>
+                                </li>
+                            
+                        
+                            
+                            
+                            
+                                <li><a onclick="gaMaxisEvents.pushInDataLayer(this,'Footer','Click Event','SKMM Notification')" href="http://www.maxis.com.my/skmm-notification.html">SKMM Notification</a>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            
+            
+                <div class="col-lg-3 col-md-3">
+                    
+
+
+
+    
+    
+    <div class="text parbase">
+
+<div>
+    <p style="font-weight: 600; margin-bottom: 8px;">Call us toll-free</p>
+<p><b>1300-820-120</b>&nbsp;or dial&nbsp;<span><b>123</b></span>&nbsp;from your mobile for any enquiries.</p>
+
+</div>
+</div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+
+    <hr/>
+
+    <div class="bottom-container row">
+        <div class="col-lg-8 col-md-12 disclaimer">
+            
+
+<div>
+    <p>Price stated may be subject to Service Tax<br>
+</p>
+<p><span class="hide-complaints">Redress your complaints at the Consumer Forum Malaysia (CFM) | </span><a href="http://www.complaint.cfm.org.my/" target="_blank">www.complaint.cfm.org.my</a></p>
+
+</div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-12 copyright">
+            <p>Copyright © 2020 Maxis Bhd. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+                </footer>
+            </div>
+        
+
+    
+
+
+
+    
+<script type="text/javascript" src="/etc.clientlibs/mxs/clientlibs/main.1ee762b6ce52f41f93a2d5d805ff4d45.js"></script>
+
+
+
+
+
+
+
+  
+    
+<script type="text/javascript" src="/etc.clientlibs/mxs/clientlibs/rebrand.a71b2ffb7f4da026aadef28aee8b32b0.js"></script>
+
+
+
+
+
+<script type="text/javascript" src="/etc.clientlibs/clientlibs/granite/utils.7a49486e1c734bd5d7fd0c1c68c83d9b.js"></script>
+</body>
+</html>
