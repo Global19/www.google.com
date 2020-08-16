@@ -1,0 +1,463 @@
+PyTheory in Action
+pytheory.ipynb
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "pytheory.ipynb",
+      "version": "0.3.2",
+      "provenance": [],
+      "collapsed_sections": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "metadata": {
+        "id": "_EMGkCYzn9UY",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "# A Premier on PyTheory\n",
+        "\n",
+        "PyTheory is a music theory library, which procedurally generates all known Western tones, scales, and chord fingering charts (for custom fretboards).\n",
+        "\n",
+        "It is capable of outputting either a rounded decimal for pitch representation, or the *proper* symbolic representation of the pitch (as a SymPy object).\n",
+        "\n",
+        "\n",
+        "## Install PyTheory:"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "4OwiDe7_oF9s",
+        "colab_type": "code",
+        "outputId": "c39a192a-eaac-497a-b3d4-3ef286a56fab",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 187
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "!pip install pytheory"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Requirement already satisfied: pytheory in /usr/local/lib/python3.6/dist-packages (0.1.1)\n",
+            "Requirement already satisfied: pygame in /usr/local/lib/python3.6/dist-packages (from pytheory) (1.9.4)\n",
+            "Requirement already satisfied: pytuning in /usr/local/lib/python3.6/dist-packages (from pytheory) (0.7.2)\n",
+            "Requirement already satisfied: numeral in /usr/local/lib/python3.6/dist-packages (from pytheory) (0.1.0.11)\n",
+            "Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (from pytheory) (1.1.0)\n",
+            "Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from pytuning->pytheory) (1.14.6)\n",
+            "Requirement already satisfied: sympy in /usr/local/lib/python3.6/dist-packages (from pytuning->pytheory) (1.1.1)\n",
+            "Requirement already satisfied: mpmath>=0.19 in /usr/local/lib/python3.6/dist-packages (from sympy->pytuning->pytheory) (1.1.0)\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "c1duUNkKoGOA",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "## Import PyTheory:"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "LVzQLkRtoGge",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "from pytheory import TonedScale"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
+        "id": "VZQzVX0UoG7f",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "Let's reference a great key (and the only one I can play on piano), A Minor:\n"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "asUQar6roHRR",
+        "colab_type": "code",
+        "outputId": "2e5a027e-2ec8-4cb5-f8ad-112368cfef49",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "a_min = TonedScale(tonic=\"A4\")[\"minor\"]\n",
+        "a_min"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<Scale I=A4 II=B4 III=C4 IV=D4 V=E4 VI=F4 VII=G4 VIII=A5>"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "oSmNsjmSogOt",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "Let's reference another great key, C Major:"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "O6O7pr1jogdh",
+        "colab_type": "code",
+        "outputId": "26fee874-ed48-400a-f473-249b415a759d",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "c_maj = TonedScale(tonic=\"C4\")[\"major\"]\n",
+        "c_maj"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<Scale I=C4 II=D4 III=E4 IV=F4 V=G4 VI=A5 VII=B5 VIII=C5>"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "8HUSLP8Qpx5J",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "That's interesting, they contain all the same notes! \n",
+        "\n",
+        "----------------\n",
+        "\n",
+        "Let's see if we can automatically detect what the modal correspondents are to A Minor:"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "l9IuJHlWqQoQ",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "cell_type": "code",
+      "source": [
+        "from pytheory import SYSTEMS\n",
+        "\n",
+        "def get_scale(tonic, mode):\n",
+        "  return TonedScale(tonic=tonic)[mode]\n",
+        "\n",
+        "def get_all_scales(octave=4):  \n",
+        "  scales = []\n",
+        "  \n",
+        "  # Iterate over all 12 tones of the Western system:  \n",
+        "  for tone in SYSTEMS[\"western\"].tones:\n",
+        "    \n",
+        "    # Create a scale for each tone.\n",
+        "    new_scale = TonedScale(tonic=f\"{tone.name}{octave}\")\n",
+        "         \n",
+        "    for mode in new_scale._scales.keys():\n",
+        "      # Create every possible permutation of the scale.      \n",
+        "      newest_scale = TonedScale(tonic=f\"{tone.name}{octave}\")[mode]\n",
+        "      \n",
+        "      # (tone, mode, scale) tuple.       \n",
+        "      scales.append((tone, mode, newest_scale))\n",
+        "      \n",
+        "  return scales\n",
+        "\n",
+        "\n",
+        "def get_matches_filter(scale):\n",
+        "  \n",
+        "  def get_good_tones(scale):\n",
+        "    good_tones = list(scale.tones)\n",
+        "\n",
+        "    # Add an upper and lower octave to the list of good known tones.   \n",
+        "    for i in range(len(SYSTEMS[\"western\"].tones)):\n",
+        "      good_tones.append(good_tones[i].add(12))\n",
+        "      good_tones.append(good_tones[i].add(-12))\n",
+        "      \n",
+        "    return good_tones\n",
+        "\n",
+        "  def matches_the_key(tmst):\n",
+        "    # Expand the (tone, mode, scale) tuple.   \n",
+        "    tone, mode, other_scale = tmst\n",
+        "\n",
+        "    trusted = True\n",
+        "    good_tones = get_good_tones(scale)\n",
+        "    \n",
+        "    # Iterate over each tone:  \n",
+        "    for tone in other_scale.tones:\n",
+        "\n",
+        "      # If the tone isn't in a set of known good tones, don't trust it.\n",
+        "      if tone not in good_tones:\n",
+        "        trusted = False\n",
+        "\n",
+        "    return trusted\n",
+        "  \n",
+        "  return matches_the_key"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "metadata": {
+        "id": "fHqLEp0c-s49",
+        "colab_type": "code",
+        "outputId": "43067572-d5f9-4de7-a3eb-1ce5f12fff37",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 211
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "# Here's the good stuff:\n",
+        "scale = get_scale(tonic=\"A4\", mode=\"minor\")\n",
+        "\n",
+        "print(f\"Scales that match A minor:\\n\")\n",
+        "\n",
+        "for tmst in filter(get_matches_filter(scale), get_all_scales()):\n",
+        "  tone, mode, other_scale = tmst\n",
+        "  \n",
+        "  # Filter out chromatic scales.   \n",
+        "  if len(other_scale.tones) == len(scale.tones):\n",
+        "    print(f\"{tone.name} {mode}: {other_scale}\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Scales that match A minor:\n",
+            "\n",
+            "A minor: <Scale I=A4 II=B4 III=C4 IV=D4 V=E4 VI=F4 VII=G4 VIII=A5>\n",
+            "A locrian: <Scale I=A4 II=B4 III=C4 IV=D4 V=E4 VI=F4 VII=G4 VIII=A5>\n",
+            "A mixolydian: <Scale I=A4 II=B4 III=C4 IV=D4 V=E4 VI=F4 VII=G4 VIII=A5>\n",
+            "B ionian: <Scale I=B4 II=C4 III=D4 IV=E4 V=F4 VI=G4 VII=A5 VIII=B5>\n",
+            "B aeolian: <Scale I=B4 II=C4 III=D4 IV=E4 V=F4 VI=G4 VII=A5 VIII=B5>\n",
+            "C major: <Scale I=C4 II=D4 III=E4 IV=F4 V=G4 VI=A5 VII=B5 VIII=C5>\n",
+            "E dorian: <Scale I=E4 II=F4 III=G4 IV=A5 V=B5 VI=C5 VII=D5 VIII=E5>\n",
+            "F phrygian: <Scale I=F4 II=G4 III=A5 IV=B5 V=C5 VI=D5 VII=E5 VIII=F5>\n",
+            "G lydian: <Scale I=G4 II=A5 III=B5 IV=C5 V=D5 VI=E5 VII=F5 VIII=G5>\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "C8aWpnu98HOh",
+        "colab_type": "text"
+      },
+      "cell_type": "markdown",
+      "source": [
+        "## Playing With Pitch:\n",
+        "\n",
+        "PyTheory also supports some advanced pitch exploration:"
+      ]
+    },
+    {
+      "metadata": {
+        "id": "pfTqnR9I8PpH",
+        "colab_type": "code",
+        "outputId": "0680385f-f9a9-4da9-f53e-4fa97054a398",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "c_min = TonedScale(tonic='C4')['minor']\n",
+        "c_min"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<Scale I=C4 II=D4 III=D#4 IV=F4 V=G4 VI=G#4 VII=A#5 VIII=C5>"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "4ccYuYTY8tiW",
+        "colab_type": "code",
+        "outputId": "2ad0619a-11c1-4fa2-83eb-6028141f876f",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "g4 = c_min[\"mixolydian\"]\n",
+        "g4"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<Tone G4>"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "c2NXv_-H8t5r",
+        "colab_type": "code",
+        "outputId": "fa03752d-15ce-4195-d6f4-dc530e0c21d4",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "# Rounded decimal.\n",
+        "g4.pitch()"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "783.990871963499"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "6VK45wMp9xPy",
+        "colab_type": "code",
+        "outputId": "00c403bc-df58-4310-a439-ec5bd481528e",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "g4.pitch(symbolic=True)"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "440*2**(5/6)"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "id": "Ek1Jj9EA98Hc",
+        "colab_type": "code",
+        "outputId": "a03b1ec3-d901-4a91-93e5-fc60f39568da",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "cell_type": "code",
+      "source": [
+        "g4.pitch(temperament=\"pythagorean\", symbolic=True)"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "7040/9"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 11
+        }
+      ]
+    }
+  ]
+}
