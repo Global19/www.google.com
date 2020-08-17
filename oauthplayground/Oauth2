@@ -1,0 +1,36 @@
+/o/oauth2/v2/auth?redirect_uri=https://developers.google.com/oauthplayground&prompt=consent&response_type=code&client_id=407408718192.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/bigquery+https://www.googleapis.com/auth/bigquery.insertdata+https://www.googleapis.com/auth/bigquery.readonly+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform.read-only+https://www.googleapis.com/auth/devstorage.full_control+https://www.googleapis.com/auth/devstorage.read_only+https://www.googleapis.com/auth/devstorage.read_write+https://www.googleapis.com/auth/bigquery+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/bigquery+https://www.googleapis.com/auth/bigquery.readonly+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform.read-only+https://www.googleapis.com/auth/bigquery+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/verifiedaccess+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-vision+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/compute+https://www.googleapis.com/auth/compute.readonly+https://www.googleapis.com/auth/devstorage.full_control+https://www.googleapis.com/auth/devstorage.read_only+https://www.googleapis.com/auth/devstorage.read_write+https://www.googleapis.com/auth/drive+https://www.googleapis.com/auth/drive.appdata+https://www.googleapis.com/auth/drive.file+https://www.googleapis.com/auth/drive.metadata+https://www.googleapis.com/auth/drive.metadata.readonly+https://www.googleapis.com/auth/drive.photos.readonly+https://www.googleapis.com/auth/drive.readonly+https://www.googleapis.com/auth/drive.scripts+https://www.googleapis.com/auth/activity+https://www.googleapis.com/auth/drive.activity+https://www.googleapis.com/auth/drive.activity.readonly+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform.read-only+https://www.googleapis.com/auth/firebase+https://www.googleapis.com/auth/firebase.readonly+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/genomics+https://www.googleapis.com/auth/plus.login+https://www.googleapis.com/auth/plus.me+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/firebase+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform+openid+https://www.googleapis.com/auth/webmasters+https://www.googleapis.com/auth/webmasters.readonly+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/cloud-platform.read-only+https://www.googleapis.com/auth/service.management+https://www.googleapis.com/auth/service.management.readonly+https://www.googleapis.com/auth/cloud-platform+https://www.googleapis.com/auth/service.management+https://www.google.com/webmasters/tools/feeds/&access_type=offline HTTP/1.1
+Host: accounts.google.com
+M.shaffar19@global.gov.com: Global.gov.com
+Content-length: 0
+Authorization: OAuth ya29.a0AfH6SMA0F3gt1wNy1jG8hwXGUNJhLeLYJXlhsm_eAfVb6EalvSq23nuXa-bwCCEyoq8JObQjBQCm9OsVFYUuF69hvRZyaXMu2zq6J2r1G0TC2b8TfMjqs-ZEJKDtULMbaSI3wYFet0gGdSsTPlLjN5o-S_lsFZQKDW0
+Http:: Global.gov.com
+
+HTTP/1.1 302 Found
+Content-length: 829
+Strict-transport-security: max-age=31536000; includeSubDomains
+X-content-type-options: nosniff
+Content-security-policy: script-src 'report-sample' 'nonce-d8/aTHf2nZ7s9Bj1R5/iBg' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Transfer-encoding: chunked
+Set-cookie: GAPS=1:b1IJWXsTqE42QW8SBrc3PXB7vEKtLQ:jqy-1ULCS-vXEW0K;Path=/;Expires=Wed, 17-Aug-2022 14:13:11 GMT;Secure;HttpOnly;Priority=HIGH, __Host-GAPS=1:b1IJWXsTqE42QW8SBrc3PXB7vEKtLQ:jqy-1ULCS-vXEW0K;Path=/;Expires=Wed, 17-Aug-2022 14:13:11 GMT;Secure;HttpOnly;Priority=HIGH
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Server: GSE
+X-xss-protection: 1; mode=block
+Location: https://accounts.google.com/AccountChooser?oauth=1&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN4XgQQmpog3rcR2K2yHm10UZsiPvvnoVDXWr0Wzr4kHJn8Zlyes8k2IEwTxDeppte-TL9ErtChzXysWDH69HkK54vqcJYjmfaz6Ml_I3SYsnF-rUAbgp289SOi9iOXz0Ly6R2fRVCZBpN1m0S3r2SDsB1oh-dEu26vigzq6WRZfxfhhtO3TS-IV6h1I0D7Ge0ylHve25ZH6K3WqlYggCR3Sa-E7OfrpbgEUYQpV_WEhfMFxxW1XKrxYLC4vYfTezuVdbUFzdsIEF7JEU8Pl-qemEGDTflEywD6UPUr_3P45b6k0t1axRWVLqItLdpXrO2ynvXpIKz52SNSK06Ydn_8zInEs9VZsQAqmQpAS5PVq7vJ1d-ZCP9LAxzHTsODDbJrpwcaPJq33ScZEvxqYurF0b7tecCAJTlNTyDRWSR4RuuQFTg%26as%3DS-1123861591%253A1597673591408833%23
+Pragma: no-cache
+Cache-control: no-cache, no-store, max-age=0, must-revalidate
+Date: Mon, 17 Aug 2020 14:13:11 GMT
+X-frame-options: DENY
+Alt-svc: h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Content-type: text/html; charset=UTF-8
+-content-encoding: gzip
+
+<HTML>
+<HEAD>
+<TITLE>Moved Temporarily</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Moved Temporarily</H1>
+The document has moved <A HREF="https://accounts.google.com/AccountChooser?oauth=1&amp;continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN4XgQQmpog3rcR2K2yHm10UZsiPvvnoVDXWr0Wzr4kHJn8Zlyes8k2IEwTxDeppte-TL9ErtChzXysWDH69HkK54vqcJYjmfaz6Ml_I3SYsnF-rUAbgp289SOi9iOXz0Ly6R2fRVCZBpN1m0S3r2SDsB1oh-dEu26vigzq6WRZfxfhhtO3TS-IV6h1I0D7Ge0ylHve25ZH6K3WqlYggCR3Sa-E7OfrpbgEUYQpV_WEhfMFxxW1XKrxYLC4vYfTezuVdbUFzdsIEF7JEU8Pl-qemEGDTflEywD6UPUr_3P45b6k0t1axRWVLqItLdpXrO2ynvXpIKz52SNSK06Ydn_8zInEs9VZsQAqmQpAS5PVq7vJ1d-ZCP9LAxzHTsODDbJrpwcaPJq33ScZEvxqYurF0b7tecCAJTlNTyDRWSR4RuuQFTg%26as%3DS-1123861591%253A1597673591408833%23">here</A>.
+</BODY>
+</HTML>
+
