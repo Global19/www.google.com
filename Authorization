@@ -1,0 +1,19 @@
+HTTP/1.1
+Host: global19.atlassian.net
+Content-length: 0
+Https:: Global.gov.com
+Authorization: OAuth ya29.a0AfH6SMAUkRCGbIudIwXgSqcf7MRe-ZaLBN0F4zYwxb99qtDyCfih9nInRKkUeqASYZ1sOIxWcA2OMyRXW65ygY2BSBHACsD8zeHU7zNTJL9LcC8-aInoEGJH7dlPibjfuMt3b-rxtkfwYKd1pnUW6Hx4ysBADQuerNQ
+HTTP/1.1 302 Found
+Expect-ct: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+X-arequestid: 3f41d001-cdd3-43e0-8731-ed63dd1b6b39
+X-xss-protection: 1; mode=block
+X-content-type-options: nosniff
+Content-length: 0
+Strict-transport-security: max-age=315360000; includeSubDomains; preload
+Atl-traceid: 311e1cbd9fa565b1
+Server: AtlassianProxy/1.15.8.1
+Connection: keep-alive
+Location: /secure/MyJiraHome.jspa
+Date: Mon, 17 Aug 2020 13:46:31 GMT
+Content-type: text/html;charset=UTF-8
+Timing-allow-origin: *
