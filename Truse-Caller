@@ -1,0 +1,291 @@
+ - English [ "en" ]
+ - Malaysia [ "my" ]
+ - Hindi [ "hi" ]
+ - Marathi [ "mr" ]
+ - Telugu [ "te" ]
+ - Malayam [ "ml" ]
+ - Urdu [ "ur" ]
+ - Punjabi [ "pa" ]
+ - Tamil [ "ta" ]
+ - Bengali [ "bn" ]
+ - Kannada [ "kn" ]
+ - Odia [ "or" ]
+
+ - logIn [ 'Login' ]
+ - signUp [ 'Signup' ]
+ - signIn [ 'Sign in' ]
+ - verify [ 'Verify number with' ]
+ - register [ 'Register with' ]
+ - getStarted [ 'Get Started with' ]
+
+ useAnotherNum [ 'USE ANOTHER MOBILE NUMBER' ]
+
+window.location = "truecallersdk://truesdk/web_verify?
+                               requestNonce=UNIQUE_REQUEST_ID
+                               &partnerKey=YOUR_PARTNER_KEY
+                               &partnerName=YOUR_APP_NAME
+                               &lang=LANGUAGE_LOCALE
+                               &title=TITLE_STRING_OPTION";
+
+setTimeout(function() {
+
+  if( document.hasFocus() ){
+     // Truecaller app not present on the device and you redirect the user 
+     // to your alternate verification page
+  }else{
+     // Truecaller app present on the device and the profile overlay opens
+     // The user clicks on verify & you'll receive the user's access token to fetch the profile on your 
+     // callback URL - post which, you can refresh the session at your frontend and complete the user  verification
+  }
+}, 600);
+
+{"requestId":"RL8YZ41FQMt5Jiak2sc_Ys0OgQA=","accessToken":"a1asX--8_yw-OF--E6Gj_DPyKelJIGUUeYB9U9MJhyeu4hOCbrl","endpoint":"https://profile4-noneu.truecaller.com/v1/default"}
+
+curl -X GET -H "Authorization: Bearer a3sAB0KnGANg4VZwIXfhUyFmPbzoONofl4FjIItac0JQSODp6niW8oBr33uOI-u7" -H "Cache-Control: no-cache" "https://profile4-noneu.truecaller.com/v1/default"
+
+{
+  "phoneNumbers": ["919999999999"],
+  "addresses": [
+    {
+       "countryCode": "in",
+       "city": "city_field_value",
+       "street": "street_field_value",
+       "zipcode": "1234567"
+    }
+  ], 
+  "avatarUrl": "https://s3-eu-west-1.amazonaws.com/images1.truecaller.com/myview/1/15a999e9806gh73834c87aaa0498020d/3", 
+  "aboutMe":"About me",
+  "jobTitle": "CEO", 
+  "companyName": "ABC",  
+  "history": {
+    "name": 
+    {
+      "updateTime": "1508089888000"
+    }
+  }, 
+  "isActive": "True", 
+  "gender": "Male", 
+  "createdTime": "1379314068000", 
+  "onlineIdentities": {
+    "url": "https://www.truecaller.com", 
+    "email": "y.s@truecaller.com",
+    "facebookId":"",
+  }, 
+  "type": "Personal", 
+  "id": "655574719", 
+  "userId":"1319413476",
+  "badges": ["verified", "premium"], 
+  "name": {
+    "last": "M.shaffar", 
+    "first": "sha"
+  }
+}
+
+{"requestId":"WZqlS6PqY0ycO3mKlEuI=","status":"user_rejected"}
+
+{"requestId":"RL8YZ41FQMt5Jiak2sc_Ys0OgQA=","accessToken":"a1asX--8_yw-OF--E6Gj_DPyKelJIGUUeYB9U9MJhyeu4hOCbrl","endpoint":"https://profile4-noneu.truecaller.com/v1/default"}
+
+{"requestId":"WZqlS6PqY0ycO3mKlEuI=","status":"user_rejected"}
+
+$ gem install cocoapods
+
+$ pod init
+
+platform :ios, '8.0'
+use_frameworks!
+
+target 'TargetName' do
+pod 'TrueSDK'
+end
+
+$ pod install
+
+<key>LSApplicationQueriesSchemes</key>
+<array>
+<string>truesdk</string>
+</array>
+
+import TrueSDK
+
+import TrueSDK
+
+//Setup TruecallerSDK
+if TCTrueSDK.sharedManager().isSupported() {
+    TCTrueSDK.sharedManager().setupWithAppKey(<#YOUR_APP_KEY#>, appLink:  <#YOUR_APP_LINK#>)
+}
+
+//Setup TruecallerSDK
+if TCTrueSDK.sharedManager().isSupported() {
+    TCTrueSDK.sharedManager().setup(withAppKey: <#YOUR_APP_KEY#>, appLink: <#YOUR_APP_LINK#>)
+}
+
+func application(application: UIApplication, continueUserActivity userActivity: NSUserActivity, restorationHandler: ([AnyObject]?) -> Void) -> Bool {
+    return TCTrueSDK.sharedManager().application(application, continueUserActivity: userActivity, restorationHandler: restorationHandler)
+}
+
+func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Swift.Void) -> Bool {
+    return TCTrueSDK.sharedManager().application(application, continue: userActivity, restorationHandler: restorationHandler)
+}
+
+func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+    return TCTrueSDK.sharedManager().application(application, continue: userActivity, restorationHandler: restorationHandler as? ([Any]?) -> Void)
+}
+
+class HostViewController: UIViewController, TCTrueSDKDelegate {
+
+class HostViewController: UIViewController, TCTrueSDKDelegate {
+
+func didFailToReceiveTrueProfileWithError(error: TCError) {
+    //Custom code here
+}
+func didReceiveTrueProfile(profile: TCTrueProfile) {
+    //Custom code here
+}
+
+func didFailToReceiveTrueProfileWithError(_ error: TCError) {
+    //Custom code here
+}
+func didReceive(_ profile: TCTrueProfile) {
+    //Custom code here
+}
+
+typedef NS_ENUM(NSUInteger, TCTrueSDKGender) {
+    TCTrueSDKGenderNotSpecified = 0, //
+    TCTrueSDKGenderMale, //
+    TCTrueSDKGenderFemale, //
+};
+
+/*!
+ * @class TCTrueProfile
+ * @brief The True Profile info returned.
+ */
+
+@interface TCTrueProfile : NSObject <NSCoding>
+
+/*! @property firstName @brief User's first name */
+@property (nonatomic, strong, nullable, readonly) NSString *firstName;
+/*! @property lastName @brief User's last name */
+@property (nonatomic, strong, nullable, readonly) NSString *lastName;
+/*! @property phoneNumber @brief User's phone number */
+@property (nonatomic, strong, nullable, readonly) NSString *phoneNumber;
+/*! @property countryCode @brief User's country code */
+@property (nonatomic, strong, nullable, readonly) NSString *countryCode;
+/*! @property street @brief User's street address */
+@property (nonatomic, strong, nullable, readonly) NSString *street;
+/*! @property city @brief User's city */
+@property (nonatomic, strong, nullable, readonly) NSString *city;
+/*! @property zipCode @brief User's zip code */
+@property (nonatomic, strong, nullable, readonly) NSString *zipCode;
+/*! @property facebookID @brief User's facebook id */
+@property (nonatomic, strong, nullable, readonly) NSString *facebookID;
+/*! @property twitterID @brief User's twitter id */
+@property (nonatomic, strong, nullable, readonly) NSString *twitterID;
+/*! @property email @brief User's email */
+@property (nonatomic, strong, nullable, readonly) NSString *email;
+/*! @property url @brief User's Truecaller profile url */
+@property (nonatomic, strong, nullable, readonly) NSString *url;
+/*! @property avatarURL @brief User's avatar url */
+@property (nonatomic, strong, nullable, readonly) NSString *avatarURL;
+/*! @property jobTitle @brief User's job title */
+@property (nonatomic, strong, nullable, readonly) NSString *jobTitle;
+/*! @property companyName @brief User's company name */
+@property (nonatomic, strong, nullable, readonly) NSString *companyName;
+/*! @property gender @brief User's gender */
+@property (nonatomic, assign, readonly) TCTrueSDKGender gender;
+/*! @property isVerified @brief User's account special verification status */
+@property (nonatomic, assign, readonly) BOOL isVerified;
+/*! @property isAmbassador @brief Is the user a Truecaller ambasador */
+@property (nonatomic, assign, readonly) BOOL isAmbassador;
+
+TCTrueSDK.sharedManager().delegate = self
+
+TCTrueSDK.sharedManager().delegate = self
+
+self.button.buttonStyle = TCButtonStyleBlue
+self.button.buttonCornersStyle = TCButtonCornersStyleRounded
+self.button.buttonStyle = TCButtonStyle.blue.rawValue
+self.button.buttonCornersStyle = TCButtonCornersStyle.rounded.rawValue
+
+TCTrueSDK.sharedManager().requestTrueProfile()
+
+TCTrueSDK.sharedManager().requestTrueProfile()
+
+#import <TrueSDK/TrueSDK.h>
+
+if ([[TCTrueSDK sharedManager] isSupported]) {
+    [[TCTrueSDK sharedManager] setupWithAppKey:<#YOUR_APP_KEY#> appLink:<#YOUR_APP_LINK#>];
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *restorableObjects))restorationHandler {
+    return [[TCTrueSDK sharedManager] application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
+}
+
+#import <UIKit/UIKit.h>
+#import <TrueSDK/TrueSDK.h>
+
+@interface ViewController : UIViewController <TCTrueSDKDelegate>
+
+@end
+
+- (void)didReceiveTrueProfile:(nonnull TCTrueProfile *)profile {
+    //Custom code
+}
+- (void)didFailToReceiveTrueProfileWithError:(nonnull TCError *)error {
+    //Custom code
+}
+
+typedef NS_ENUM(NSUInteger, TCTrueSDKGender) {
+    TCTrueSDKGenderNotSpecified = 0, //
+    TCTrueSDKGenderMale, //
+    TCTrueSDKGenderFemale, //
+};
+
+/*!
+ * @class TCTrueProfile
+ * @brief The True Profile info returned.
+ */
+
+@interface TCTrueProfile : NSObject <NSCoding>
+
+/*! @property firstName @brief User's first name */
+@property (nonatomic, strong, nullable, readonly) NSString *firstName;
+/*! @property lastName @brief User's last name */
+@property (nonatomic, strong, nullable, readonly) NSString *lastName;
+/*! @property phoneNumber @brief User's phone number */
+@property (nonatomic, strong, nullable, readonly) NSString *phoneNumber;
+/*! @property countryCode @brief User's country code */
+@property (nonatomic, strong, nullable, readonly) NSString *countryCode;
+/*! @property street @brief User's street address */
+@property (nonatomic, strong, nullable, readonly) NSString *street;
+/*! @property city @brief User's city */
+@property (nonatomic, strong, nullable, readonly) NSString *city;
+/*! @property zipCode @brief User's zip code */
+@property (nonatomic, strong, nullable, readonly) NSString *zipCode;
+/*! @property facebookID @brief User's facebook id */
+@property (nonatomic, strong, nullable, readonly) NSString *facebookID;
+/*! @property twitterID @brief User's twitter id */
+@property (nonatomic, strong, nullable, readonly) NSString *twitterID;
+/*! @property email @brief User's email */
+@property (nonatomic, strong, nullable, readonly) NSString *email;
+/*! @property url @brief User's Truecaller profile url */
+@property (nonatomic, strong, nullable, readonly) NSString *url;
+/*! @property avatarURL @brief User's avatar url */
+@property (nonatomic, strong, nullable, readonly) NSString *avatarURL;
+/*! @property jobTitle @brief User's job title */
+@property (nonatomic, strong, nullable, readonly) NSString *jobTitle;
+/*! @property companyName @brief User's company name */
+@property (nonatomic, strong, nullable, readonly) NSString *companyName;
+/*! @property gender @brief User's gender */
+@property (nonatomic, assign, readonly) TCTrueSDKGender gender;
+/*! @property isVerified @brief User's account special verification status */
+@property (nonatomic, assign, readonly) BOOL isVerified;
+/*! @property isAmbassador @brief Is the user a Truecaller ambasador */
+@property (nonatomic, assign, readonly) BOOL isAmbassador;
+
+[TCTrueSDK sharedManager].delegate = self;
+
+self.button.buttonStyle = TCButtonStyleBlue;
+self.button.buttonCornersStyle = TCButtonCornersStyleRounded;
+
+[[TCTrueSDK sharedManager] requestTrueProfile];
+
