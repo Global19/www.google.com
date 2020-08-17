@@ -1,0 +1,47 @@
+HTTP/1.1
+Host: google.domain.com
+M.shaffar19@global.gov.com: Global.gov.com
+Content-length: 0
+Authorization: OAuth ya29.a0AfH6SMA0F3gt1wNy1jG8hwXGUNJhLeLYJXlhsm_eAfVb6EalvSq23nuXa-bwCCEyoq8JObQjBQCm9OsVFYUuF69hvRZyaXMu2zq6J2r1G0TC2b8TfMjqs-ZEJKDtULMbaSI3wYFet0gGdSsTPlLjN5o-S_lsFZQKDW0
+Http:: Global.gov.com
+
+HTTP/1.1 404 Not Found
+Content-length: 867
+X-robots-tag: noindex, nofollow
+Accept-ranges: bytes
+Keep-alive: timeout=30
+Server: Apache/2
+Last-modified: Fri, 10 Jan 2020 16:05:10 GMT
+Connection: keep-alive
+Date: Mon, 17 Aug 2020 14:17:38 GMT
+Content-type: text/html
+
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>404 Error - Page Not Found</title>
+        <style>
+            #ad_frame{ height:800px; width:100%; }
+            body{ margin:0; border: 0; padding: 0; }
+        </style>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" language="JavaScript">
+            var url = 'http://www.searchvity.com/?dn='
+                + document.domain + '&pid=9POL6F2H4';
+
+            $(document).ready(function() {
+                $('#ad_frame').attr('src', url);
+            });
+        </script>
+    </head>
+    <body>
+        <iframe id="ad_frame" src="http://www.searchvity.com/"
+            frameborder="0" scrolling="no">
+
+            <!-- browser does not support iframe's -->
+
+        </iframe>
+    </body>
+
+</html>
