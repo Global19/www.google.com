@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'M7lc1UVf-VE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+  </body>
+</html>
+
+var player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    height: '390',
+    width: '640',
+    videoId: 'M7lc1UVf-VE',
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
+  });
+}
+
+<iframe id="player" type="text/html" width="640" height="390"
+  src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
+  frameborder="0"></iframe>
+
+loadVideoById("bHQqvYy5KYo", 5, "large")
+
+loadVideoById({'videoId': 'bHQqvYy5KYo',
+               'startSeconds': 5,
+               'endSeconds': 60});
+
+player.cueVideoById(videoId:String,
+                    startSeconds:Number):Void
+
+player.cueVideoById({videoId:String,
+                     startSeconds:Number,
+                     endSeconds:Number}):Void
+
+player.loadVideoById(videoId:String,
+                     startSeconds:Number):Void
+
+player.loadVideoById({videoId:String,
+                      startSeconds:Number,
+                      endSeconds:Number}):Void
+
+player.cueVideoByUrl(mediaContentUrl:String,
+                     startSeconds:Number):Void
+
+player.cueVideoByUrl({mediaContentUrl:String,
+                      startSeconds:Number,
+                      endSeconds:Number}):Void
+
+player.loadVideoByUrl(mediaContentUrl:String,
+                      startSeconds:Number):Void
+
+player.loadVideoByUrl({mediaContentUrl:String,
+                       startSeconds:Number,
+                       endSeconds:Number}):Void
+
+player.cuePlaylist(playlist:String|Array,
+                   index:Number,
+                   startSeconds:Number):Void
+
+player.cuePlaylist({listType:String,
+                    list:String,
+                    index:Number,
+                    startSeconds:Number}):Void
+
+player.loadPlaylist(playlist:String|Array,
+                    index:Number,
+                    startSeconds:Number):Void
+
+player.loadPlaylist({list:String,
+                     listType:String,
+                     index:Number,
+                     startSeconds:Number}):Void
+
+function onPlayerReady(event) {
+  var embedCode = event.target.getVideoEmbedCode();
+  event.target.playVideo();
+  if (document.getElementById('embed-code')) {
+    document.getElementById('embed-code').innerHTML = embedCode;
+  }
+}
+
+player.getOptions();
+player.getOptions('captions');
+
+Retrieving an option:
+player.getOption(module, option);
+
+Setting an option
+player.setOption(module, option, value);
+
+<iframe id="existing-iframe-example"
+        width="640" height="360"
+        src="https://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1"
+        frameborder="0"
+        style="border: solid 4px #37474F"
+></iframe>
+
+<script type="text/javascript">
+  var tag = document.createElement('script');
+  tag.id = 'iframe-demo';
+  tag.src = 'https://www.youtube.com/iframe_api';
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('existing-iframe-example', {
+        events: {
+          'onReady': onPlayerReady,
+          'onStateChange': onPlayerStateChange
+        }
+    });
+  }
+  function onPlayerReady(event) {
+    document.getElementById('existing-iframe-example').style.borderColor = '#FF6D00';
+  }
+  function changeBorderColor(playerStatus) {
+    var color;
+    if (playerStatus == -1) {
+      color = "#37474F"; // unstarted = gray
+    } else if (playerStatus == 0) {
+      color = "#FFFF00"; // ended = yellow
+    } else if (playerStatus == 1) {
+      color = "#33691E"; // playing = green
+    } else if (playerStatus == 2) {
+      color = "#DD2C00"; // paused = red
+    } else if (playerStatus == 3) {
+      color = "#AA00FF"; // buffering = purple
+    } else if (playerStatus == 5) {
+      color = "#FF6DOO"; // video cued = orange
+    }
+    if (color) {
+      document.getElementById('existing-iframe-example').style.borderColor = color;
+    }
+  }
+  function onPlayerStateChange(event) {
+    changeBorderColor(event.data);
+  }
+</script>
+
+function onYouTubeIframeAPIReady() {
+  var player;
+  player = new YT.Player('player', {
+    width: 1280,
+    height: 720,
+    videoId: 'M7lc1UVf-VE',
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange,
+      'onError': onPlayerError
+    }
+  });
+}
+
+function onPlayerReady(event) {
+  event.target.setVolume(100);
+  event.target.playVideo();
+}
+
+function onYouTubeIframeAPIReady() {
+  var player;
+  player = new YT.Player('player', {
+    videoId: 'M7lc1UVf-VE',
+    playerVars: { 'autoplay': 1, 'controls': 0 },
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange,
+      'onError': onPlayerError
+    }
+  });
+}
+
+<style>
+  .current-values {
+    color: #666;
+    font-size: 12px;
+  }
+</style>
+<!-- The player is inserted in the following div element -->
+<div id="spherical-video-player"></div>
+
+<!-- Display spherical property values and enable user to update them. -->
+<table style="border: 0; width: 640px;">
+  <tr style="background: #fff;">
+    <td>
+      <label for="yaw-property">yaw: </label>
+      <input type="text" id="yaw-property" style="width: 80px"><br>
+      <div id="yaw-current-value" class="current-values"> </div>
+    </td>
+    <td>
+      <label for="pitch-property">pitch: </label>
+      <input type="text" id="pitch-property" style="width: 80px"><br>
+      <div id="pitch-current-value" class="current-values"> </div>
+    </td>
+    <td>
+      <label for="roll-property">roll: </label>
+      <input type="text" id="roll-property" style="width: 80px"><br>
+      <div id="roll-current-value" class="current-values"> </div>
+    </td>
+    <td>
+      <label for="fov-property">fov: </label>
+      <input type="text" id="fov-property" style="width: 80px"><br>
+      <div id="fov-current-value" class="current-values"> </div>
+    </td>
+    <td style="vertical-align: bottom;">
+      <button id="spherical-properties-button">Update properties</button>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  var tag = document.createElement('script');
+  tag.id = 'iframe-demo';
+  tag.src = 'https://www.youtube.com/iframe_api';
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var PROPERTIES = ['yaw', 'pitch', 'roll', 'fov'];
+  var updateButton = document.getElementById('spherical-properties-button');
+
+  // Create the YouTube Player.
+  var ytplayer;
+  function onYouTubeIframeAPIReady() {
+    ytplayer = new YT.Player('spherical-video-player', {
+        height: '360',
+        width: '640',
+        videoId: 'FAtdv94yzp4',
+    });
+  }
+
+  // Don't display current spherical settings because there aren't any.
+  function hideCurrentSettings() {
+    for (var p = 0; p < PROPERTIES.length; p++) {
+      document.getElementById(PROPERTIES[p] + '-current-value').innerHTML = '';
+    }
+  }
+
+  // Retrieve current spherical property values from the API and display them.
+  function updateSetting() {
+    if (!ytplayer || !ytplayer.getSphericalProperties) {
+      hideCurrentSettings();
+    } else {
+      let newSettings = ytplayer.getSphericalProperties();
+      if (Object.keys(newSettings).length === 0) {
+        hideCurrentSettings();
+      } else {
+        for (var p = 0; p < PROPERTIES.length; p++) {
+          if (newSettings.hasOwnProperty(PROPERTIES[p])) {
+            currentValueNode = document.getElementById(PROPERTIES[p] +
+                                                       '-current-value');
+            currentValueNode.innerHTML = ('current: ' +
+                newSettings[PROPERTIES[p]].toFixed(4));
+          }
+        }
+      }
+    }
+    requestAnimationFrame(updateSetting);
+  }
+  updateSetting();
+
+  // Call the API to update spherical property values.
+  updateButton.onclick = function() {
+    var sphericalProperties = {};
+    for (var p = 0; p < PROPERTIES.length; p++) {
+      var propertyInput = document.getElementById(PROPERTIES[p] + '-property');
+      sphericalProperties[PROPERTIES[p]] = parseFloat(propertyInput.value);
+    }
+    ytplayer.setSphericalProperties(sphericalProperties);
+  }
+</script>
+
+
