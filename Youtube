@@ -1,0 +1,191 @@
+Home
+Products
+YouTube
+Analytics and Reporting APIs
+Overview
+Introduction
+This document explains similarities and differences in the ways that the YouTube Analytics API and YouTube Reporting API provide access to YouTube Analytics data. The document's purpose is to help you to choose the right API for your application.
+
+Both APIs enable developers to retrieve YouTube Analytics data. In addition, both APIs support YouTube channel owners and YouTube content owners, each of whom can access a specific set of reports:
+
+Channel reports contain user activity metrics for a specified channel.
+
+Content owner reports aggregate metrics for all of the channels linked to a specified YouTube content owner. For example, a record label could retrieve a report containing combined statistics for the YouTube channels of all of the label's artists. Some content owner reports contain user activity metrics, while others contain metrics related to revenue and ad performance.
+
+The Reporting API also allows some content owners to access system-managed ad revenue reports. The data in the system-managed reports can only be retrieved with the Reporting API.
+
+All YouTube Analytics and YouTube Reporting API requests must be authorized by the channel or content owner that owns the requested data.
+
+Report contents
+The reports that the APIs retrieve contain two types of data:
+
+Dimensions are common criteria that are used to aggregate data, such as the date on which the user activity occurred or the country where the users were located.
+
+In a report, each row of data has a unique combination of dimension values. As such, each row's combination of dimension values functions as the primary key for that row.
+
+Metrics are individual measurements of user activity, ad performance, or estimated revenue. User activity metrics include things like video view counts and ratings (likes and dislikes).
+
+Choose the right API for your application
+YouTube Analytics API
+The YouTube Analytics API supports real-time targeted queries to generate custom YouTube Analytics reports. The API provides filtering and sorting parameters, so the calling application does not need to natively support these functions.
+
+Each API request specifies the date range for which data will be returned. The API also enables you to retrieve weekly and monthly data sets. As such, the calling application does not need to store retrieved data sets or aggregate statistics across date ranges.
+YouTube Reporting API
+The YouTube Reporting API retrieves bulk reports containing YouTube Analytics data for a channel or content owner. It is designed for applications that can import large data sets and that provide tools to filter, sort, and mine that data.
+
+Each report contains a predefined set of fields. Developers use the API to schedule reporting jobs, each of which identifies a report that YouTube should generate. YouTube then generates a daily report that can be asynchronously downloaded. Each report contains data for a unique 24-hour period.
+
+In addition, YouTube automatically generates a set of system-managed reports for content owners that have access to the corresponding reports in YouTube Creator Studio. These reports provide programmatic access to ad revenue data.
+Supported reports
+The following table identifies the different types of reports you can retrieve using the APIs. Targeted queries are available via the YouTube Analytics API, and bulk reports are available via the YouTube Reporting API.
+
+Data that is available in one API might not be available in the other. For example, the YouTube Analytics API lets you retrieve user activity metrics on a weekly or monthly basis, but the YouTube Reporting API requires you to aggregate that data yourself. On the other hand, the YouTube Reporting API supports asset reports for content owners, but that data is not available from the YouTube Analytics API.
+
+Report types
+Video reports
+Supported for channels (query or bulk) and content owners (query or bulk).
+
+Video reports provide statistics for all user activity related to a channel's videos or a content owner's videos. For example, these reports contain the number of views that your videos received. In the YouTube Analytics API, some content owner video reports also include estimated revenue and ad performance metrics.
+Playlist reports
+Supported for channels (query or bulk) and content owners (query or bulk).
+
+Playlist reports provide statistics that are specifically related to video views that occur in the context of a playlist. The YouTube Reporting API supports audience retention reports for playlists, but the YouTube Analytics API does not support a similar report.
+Ad performance reports
+Supported for content owners (query or bulk).
+
+Ad performance reports provide impression-based metrics for ads that ran during video playbacks. These metrics account for each ad impression, and each video playback can yield multiple impressions.
+Estimated revenue reports
+Supported for content owners (bulk).
+
+Estimated revenue reports provide the total estimated revenue for videos from Google-sold advertising sources and from non-advertising sources. These reports also contain some ad performance metrics. Note that system-managed reports contain actual revenue.
+Asset reports
+Supported for content owners (bulk).
+
+Asset reports provide user activity metrics related to videos that are linked to a content owner's assets. A video is included in a content owner's report if the content owner has claimed that video as a match of one of the content owner's assets. The video could have been uploaded by the content owner or by another YouTube user.
+System-managed reports
+Supported for content owners who have access to the corresponding reports in the Reports section of YouTube's Creator Studio.
+
+System-managed reports provide actual revenue data earned by assets and videos. An additional report lists claimed videos and the assets those videos match. Note that not all Creator Studio reports are currently available in the API.
+
+Note: YouTube automatically generates system-managed reports for content owners that have access to the corresponding reports in Creator Studio. As a result, the process for retrieving these reports is different than for the other types of reports in this list. See the documentation for system-managed reports for more information.
+Key differences
+The following table highlights important differences between the YouTube Analytics and Reporting APIs.
+
+Feature	YouTube Analytics API	YouTube Reporting API
+Process to retrieve data	Each API request specifies dimensions and metrics to be returned as well as the time period for which data will be returned.	Applications schedule reporting jobs. For each job, YouTube generates daily reports that can be asychronously downloaded.
+Date Ranges	Some API reports specify the date that user activity occurred. Some of those reports support dimensions to aggregate user activity metrics by 7-day periods, 30-day periods, or months.	All API reports specify the day that user activity occurred. Applications using the API can implement features to aggregate data for periodic intervals.
+Filtering data	You can filter reports to include only rows for which a dimension has a specific value. The API also supports some dimensions, like continent and subContinent, that are used only as filters.	The API supports bulk downloads of complete data sets. It does not support filtering or return data for filter-only dimensions. The client application stores the downloaded data and implements its own features to filter the data.
+Sorting	Reports can be sorted based on returned metric values. Some reports support only a limited number of results. For example, the report that lists a channel's most viewed videos returns a maximum of 200 rows.	This API supports bulk downloads of complete data sets. Client applications can implement their own features to sort downloaded data.
+Enumerations	API reports contain text values, like "ANDROID" or "CHANNEL," to identify enumerated dimension values.	API reports contain integers that can be mapped to text values.
+Quota	The API server evaluates each query to determine its quota cost. The quota usage document explains the methodology in more detail.	Quota usage is not an issue because data is retrieved once and then filtered, sorted, and queried within the application.
+Unique reports		
+User activity related to subtitles
+Audience retention data for playlists
+Estimated revenue reports for content owners (2 different reports are available)
+Asset reports for content owners (11 different reports are available)
+Unique dimensions	group (filter-only dimension)
+continent (filter-only dimension)
+subContinent (filter-only dimension)
+7DayTotals
+30DayTotals
+month
+isCurated==1 (filter-only dimension)
+viewsPerPlaylistStart
+averageTimeInPlaylist	annotation_id
+annotation_type
+asset_id
+card_id
+card_type
+live_or_on_demand
+subscribed_status
+subtitle_language
+Unique metrics	uniques
+relativeRetentionPerformance
+viewsPerPlaylistStart
+averageTimeInPlaylist
+card_click_rate
+card_clicks
+card_impressions
+card_teaser_click_rate
+card_teaser_clicks
+card_teaser_impressions
+estimated_partner_adsense_revenue
+estimated_partner_doubleclick_revenue playlist_saves_added
+playlist_saves_removed
+Naming differences between APIs
+The two APIs currently use different naming conventions to identify dimensions and metrics. At this time, YouTube Analytics API names use camelCase, while YouTube Reporting API names use underscore-delimited names.
+
+The following tables identify the different names that the two APIs use to identify the same metrics and dimensions. In some cases, the difference between the two names is more than what you would get after converting a name from camelCase to underscores. For example, the video dimension in the YouTube Analytics API is named video_id in the YouTube Reporting API.
+
+Dimensions
+YouTube Analytics API name	YouTube Reporting API name
+adType	ad_type
+ageGroup	age_group
+asset	asset_id
+audienceType	audience_retention_type
+channel	channel_id
+claimedStatus	claimed_status
+contentOwner	content_owner_id
+country	country_code
+day	date
+deviceType	device_type
+elapsedVideoTimeRatio	elapsed_video_time_percentage
+gender	gender
+insightPlaybackLocationDetail	playback_location_detail
+insightPlaybackLocationType	playback_location_type
+insightTrafficSourceDetail	traffic_source_detail
+insightTrafficSourceType	traffic_source_type
+liveOrOnDemand	live_or_on_demand
+operatingSystem	operating_system
+playlist	playlist_id
+province	province_code
+sharingService	sharding_service
+subscribedStatus	subscribed_status
+subtitleLanguage	subtitle_language
+uploaderType	uploader_type
+video	video_id
+Metrics
+YouTube Analytics API name	YouTube Reporting API name
+adEarnings	estimated_partner_ad_revenue
+annotationImpressions	annotation_impressions
+annotationClickableImpressions	annotation_clickable_impressions
+annotationClicks	annotation_clicks
+annotationClickThroughRate	annotation_click_through_rate
+annotationClosableImpressions	annotation_closable_impressions
+annotationCloses	annotation_closes
+annotationCloseRate	annotation_close_rate
+audienceWatchRatio	audience_retention_percentage
+averageViewDuration	average_view_duration_seconds
+averageViewPercentage	average_view_duration_percentage
+cardClickRate	card_click_rate
+cardClicks	card_clicks
+cardImpressions	card_impressions
+cardTeaserClickRate	card_teaser_click_rate
+cardTeaserClicks	card_teaser_clicks
+cardTeaserImpressions	card_teaser_impressions
+comments	comments
+dislikes	dislikes
+earnings	estimated_partner_revenue
+estimatedMinutesWatched	watch_time_minutes
+estimatedPartnerAdSenseRevenue	estimated_partner_adsense_revenue
+estimatedPartnerDoubleClickRevenue	estimated_partner_doubleclick_revenue
+grossRevenue	estimated_youtube_ad_revenue
+impressionBasedCpm	estimated_cpm
+impressions	ad_impressions
+likes	likes
+monetizedPlaybacks	estimated_monetized_playbacks
+playbackBasedCpm	estimated_playback_based_cpm
+playlistStarts	playlist_starts
+savesAdded	playlist_saves_added
+savesRemoved	playlist_saves_removed
+shares	shares
+subscribersGained	subscribers_gained
+subscribersLost	subscribers_lost
+videosAddedToPlaylists	videos_added_to_playlists
+videosRemovedFromPlaylists	videos_removed_from_playlist
+viewerPercentage	views_percentage
+views	views
+Was this page helpful?
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2019-06-11 UTC.
