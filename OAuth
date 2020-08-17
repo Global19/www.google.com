@@ -1,0 +1,9 @@
+HTTP/1.1
+Host: M.shaffar19@Global.com
+Content-length: 0
+Https:: Global.gov.com
+Authorization: OAuth ya29.a0AfH6SMAUkRCGbIudIwXgSqcf7MRe-ZaLBN0F4zYwxb99qtDyCfih9nInRKkUeqASYZ1sOIxWcA2OMyRXW65ygY2BSBHACsD8zeHU7zNTJL9LcC8-aInoEGJH7dlPibjfuMt3b-rxtkfwYKd1pnUW6Hx4ysBADQuerNQ
+HTTP/1.1 400 Bad Request
+Content-length: 52
+Content-type: text/plain
+request URL: https://m.shaffar19@global.com/
