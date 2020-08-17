@@ -1,0 +1,43 @@
+pod "youtube-ios-player-helper", "~> x.y.z"
+
+#import “YTPlayerView.h”
+
+@property(nonatomic, strong) IBOutlet YTPlayerView *playerView;
+
+[self.playerView loadWithVideoId:@"M7lc1UVf-VE"];
+
+NSDictionary *playerVars = @{
+  @"playsinline" : @1,
+};
+[self.playerView loadWithVideoId:@"M7lc1UVf-VE" playerVars:playerVars];
+
+- (IBAction)playVideo:(id)sender;
+- (IBAction)stopVideo:(id)sender;
+
+- (IBAction)playVideo:(id)sender {
+  [self.playerView playVideo];
+}
+
+- (IBAction)stopVideo:(id)sender {
+  [self.playerView stopVideo];
+}
+
+@interface ViewController : UIViewController<YTPlayerViewDelegate>
+
+self.playerView.delegate = self;
+
+- (void)playerView:(YTPlayerView *)playerView didChangeToState:(YTPlayerState)state {
+  switch (state) {
+    case kYTPlayerStatePlaying:
+      NSLog(@"Started playback");
+      break;
+    case kYTPlayerStatePaused:
+      NSLog(@"Paused playback");
+      break;
+    default:
+      break;
+  }
+}
+
+
+
