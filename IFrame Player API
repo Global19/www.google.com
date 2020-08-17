@@ -1,0 +1,47 @@
+https://www.youtube.com/embed/VIDEO_ID
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
+  frameborder="0"></iframe>
+
+<div id="ytplayer"></div>
+
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '360',
+      width: '640',
+      videoId: 'M7lc1UVf-VE'
+    });
+  }
+</script>
+
+https://www.youtube.com/embed/VIDEO_ID
+
+https://www.youtube.com/embed?listType=playlist&list=PLAYLIST_ID
+
+https://www.youtube.com/embed?listType=playlist&list=PLC77007E23FF423C6
+
+https://www.youtube.com/embed?listType=user_uploads&list=USERNAME
+
+https://www.youtube.com/embed?listType=search&list=QUERY
+
+https://www.youtube.com/embed?
+    listType=playlist
+    &list=PLC77007E23FF423C6
+
+https://www.youtube.com/v/VIDEO_ID?
+    version=3
+    &loop=1
+    &playlist=VIDEO_ID
+
+https://www.youtube.com/v/VIDEO_ID?version=3&loop=1&playlist=VIDEO_ID
