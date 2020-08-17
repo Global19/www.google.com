@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <script>
+   // Dynamically, pre-emptively, add `noindex`, which will be removed when the doc is ready and valid
+    tag = document.createElement('meta'); tag.name = 'robots'; tag.content = 'noindex';
+    document.head.appendChild(tag);
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="initial-scale=1, width=device-width" name="viewport"/>
+  <title>
+   Material Design
+  </title>
+  <meta content="Material Design" itemprop="name" name="twitter:title" property="og:title"/>
+  <meta content="Build beautiful, usable products faster. Material Design is an adaptable system—backed by open-source code—that helps teams build high quality digital experiences." itemprop="description" name="twitter:description" property="og:description"/>
+  <meta content="/static/spec/images/share.png" itemprop="image" name="twitter:image" property="og:image"/>
+  <meta content="https://material.io" itemprop="url" name="twitter:url" property="og:url"/>
+  <meta content="Material Design" property="og:site_name"/>
+  <meta content="article" property="og:type"/>
+  <meta content="summary" name="twitter:card"/>
+  <meta content="#ffffff" name="theme-color"/>
+  <meta content="telephone=no" name="format-detection"/>
+  <meta content="Build beautiful, usable products faster. Material Design is an adaptable system—backed by open-source code—that helps teams build high quality digital experiences." name="description"/>
+  <link href="/static/assets/favicon.ico" rel="shortcut icon"/>
+  <link href="https://storage.googleapis.com" rel="preconnect"/>
+  <link href="https://kstatic.googleusercontent.com" rel="preconnect"/>
+  <link href="https://lh3.googleusercontent.com" rel="preconnect"/>
+  <link href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link href="https://s.ytimg.com" rel="dns-prefetch"/>
+  <link href="https://www.youtube.com" rel="dns-prefetch"/>
+  <link href="https://survey.g.doubleclick.net" rel="dns-prefetch"/>
+  <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="https://www.google.com" rel="dns-prefetch"/>
+  <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NHRPF8" type="text/javascript">
+  </script>
+  <script async="" defer="" src="https://www.gstatic.com/feedback/api.js" type="text/javascript">
+  </script>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-90255304-1', 'auto');
+  </script>
+  <script>
+   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHRPF8');
+  </script>
+  <style>
+   /* This block of code can't be moved into styles because angular appends styles to the end of the head */
+    .animatable {
+      opacity: 0;
+      position: relative;
+      top: 16px;
+      transition: opacity 235ms cubic-bezier(.4,0,.2,1), top 500ms cubic-bezier(.4,0,.2,1);
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400,500|Material+Icons" rel="stylesheet"/>
+  <link href="https://storage.googleapis.com/spec-host/material-io/prod/1597426404582/static/angular/styles.5f152ec368ed519b6a49.css" rel="stylesheet"/>
+  <base href="/"/>
+ </head>
+ <body>
+  <mio-root>
+  </mio-root>
+  <script src="https://storage.googleapis.com/spec-host/material-io/prod/1597426404582/site_meta.js">
+  </script>
+  <script src="https://storage.googleapis.com/spec-host/material-io/prod/1597426404582/third_party/js/mdl/mdlComponentHandler.min.js">
+  </script>
+  <noscript>
+   This website requires JavaScript.
+  </noscript>
+  <script defer="" src="https://storage.googleapis.com/spec-host/material-io/prod/1597426404582/static/angular/runtime.d94edf9327b1de5a7bc2.js">
+  </script>
+  <script defer="" nomodule="" src="https://storage.googleapis.com/spec-host/material-io/prod/1597426404582/static/angular/polyfills-es5.0808331d641d18d52210.js">
+  </script>
+  <script defer="" src="https://storage.googleapis.com/spec-host/material-io/prod/1597426404582/static/angular/polyfills.a7bd3d8031dcb49f1ec6.js">
+  </script>
+  <script defer="" src="https://storage.googleapis.com/spec-host/material-io/prod/1597426404582/static/angular/main.fbac11f3211ae8588089.js">
+  </script>
+ </body>
+</html>
