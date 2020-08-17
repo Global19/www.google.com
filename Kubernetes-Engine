@@ -1,0 +1,459 @@
+Kubernetes Engine API
+
+
+Builds and manages container-based applications, powered by the open source Kubernetes technology.
+
+Service: container.googleapis.com
+We recommend that you call this service using Google-provided client libraries. If your application needs to call this service using your own libraries, you should use the following information when making the API requests.
+
+Discovery document
+A Discovery Document is a machine-readable specification for describing and consuming REST APIs. It is used to build client libraries, IDE plugins, and other tools that interact with Google APIs. One service may provide multiple discovery documents. This service provides the following discovery documents:
+
+https://container.googleapis.com/$discovery/rest?version=v1
+https://container.googleapis.com/$discovery/rest?version=v1beta1
+Service endpoint
+A service endpoint is a base URL that specifies the network address of an API service. One service may have multiple service endpoints. This service has the following service endpoint and all URIs below are relative to this service endpoint:
+
+https://container.googleapis.com
+REST Resource: v1beta1.projects.aggregated.usableSubnetworks
+Methods
+list
+GET /v1beta1/{parent=projects/*}/aggregated/usableSubnetworks
+Lists subnetworks that can be used for creating clusters in a project.
+REST Resource: v1beta1.projects.locations
+Methods
+getServerConfig
+GET /v1beta1/{name=projects/*/locations/*}/serverConfig
+Returns configuration info about the Google Kubernetes Engine service.
+list
+GET /v1beta1/{parent=projects/*}/locations
+Fetches locations that offer Google Kubernetes Engine.
+REST Resource: v1beta1.projects.locations.clusters
+Methods
+completeIpRotation
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:completeIpRotation
+Completes master IP rotation.
+create
+POST /v1beta1/{parent=projects/*/locations/*}/clusters
+Creates a cluster, consisting of the specified number and type of Google Compute Engine instances.
+delete
+DELETE /v1beta1/{name=projects/*/locations/*/clusters/*}
+Deletes the cluster, including the Kubernetes endpoint and all worker nodes.
+get
+GET /v1beta1/{name=projects/*/locations/*/clusters/*}
+Gets the details for a specific cluster.
+getJwks
+GET /v1beta1/{parent=projects/*/locations/*/clusters/*}/jwks
+Gets the public component of the cluster signing keys in JSON Web Key format.
+list
+GET /v1beta1/{parent=projects/*/locations/*}/clusters
+Lists all clusters owned by a project in either the specified zone or all zones.
+setAddons
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setAddons
+Sets the addons for a specific cluster.
+setLegacyAbac
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setLegacyAbac
+Enables or disables the ABAC authorization mechanism on a cluster.
+setLocations
+(deprecated)
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setLocations
+Sets the locations for a specific cluster.
+setLogging
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setLogging
+Sets the logging service for a specific cluster.
+setMaintenancePolicy
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setMaintenancePolicy
+Sets the maintenance policy for a cluster.
+setMasterAuth
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setMasterAuth
+Sets master auth materials.
+setMonitoring
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setMonitoring
+Sets the monitoring service for a specific cluster.
+setNetworkPolicy
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setNetworkPolicy
+Enables or disables Network Policy for a cluster.
+setResourceLabels
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:setResourceLabels
+Sets labels on a cluster.
+startIpRotation
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:startIpRotation
+Starts master IP rotation.
+update
+PUT /v1beta1/{name=projects/*/locations/*/clusters/*}
+Updates the settings for a specific cluster.
+updateMaster
+POST /v1beta1/{name=projects/*/locations/*/clusters/*}:updateMaster
+Updates the master for a specific cluster.
+REST Resource: v1beta1.projects.locations.clusters.nodePools
+Methods
+create
+POST /v1beta1/{parent=projects/*/locations/*/clusters/*}/nodePools
+Creates a node pool for a cluster.
+delete
+DELETE /v1beta1/{name=projects/*/locations/*/clusters/*/nodePools/*}
+Deletes a node pool from a cluster.
+get
+GET /v1beta1/{name=projects/*/locations/*/clusters/*/nodePools/*}
+Retrieves the requested node pool.
+list
+GET /v1beta1/{parent=projects/*/locations/*/clusters/*}/nodePools
+Lists the node pools for a cluster.
+rollback
+POST /v1beta1/{name=projects/*/locations/*/clusters/*/nodePools/*}:rollback
+Rolls back a previously Aborted or Failed NodePool upgrade.
+setAutoscaling
+POST /v1beta1/{name=projects/*/locations/*/clusters/*/nodePools/*}:setAutoscaling
+Sets the autoscaling settings of a specific node pool.
+setManagement
+POST /v1beta1/{name=projects/*/locations/*/clusters/*/nodePools/*}:setManagement
+Sets the NodeManagement options for a node pool.
+setSize
+POST /v1beta1/{name=projects/*/locations/*/clusters/*/nodePools/*}:setSize
+Sets the size for a specific node pool.
+update
+PUT /v1beta1/{name=projects/*/locations/*/clusters/*/nodePools/*}
+Updates the version and/or image type of a specific node pool.
+REST Resource: v1beta1.projects.locations.clusters.well-known
+Methods
+getOpenid-configuration
+GET /v1beta1/{parent=projects/*/locations/*/clusters/*}/.well-known/openid-configuration
+Gets the OIDC discovery document for the cluster.
+REST Resource: v1beta1.projects.locations.operations
+Methods
+cancel
+POST /v1beta1/{name=projects/*/locations/*/operations/*}:cancel
+Cancels the specified operation.
+get
+GET /v1beta1/{name=projects/*/locations/*/operations/*}
+Gets the specified operation.
+list
+GET /v1beta1/{parent=projects/*/locations/*}/operations
+Lists all operations in a project in the specified zone or all zones.
+REST Resource: v1beta1.projects.zones
+Methods
+getServerconfig
+GET /v1beta1/projects/{projectId}/zones/{zone}/serverconfig
+Returns configuration info about the Google Kubernetes Engine service.
+REST Resource: v1beta1.projects.zones.clusters
+Methods
+addons
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/addons
+Sets the addons for a specific cluster.
+completeIpRotation
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:completeIpRotation
+Completes master IP rotation.
+create
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters
+Creates a cluster, consisting of the specified number and type of Google Compute Engine instances.
+delete
+DELETE /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}
+Deletes the cluster, including the Kubernetes endpoint and all worker nodes.
+get
+GET /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}
+Gets the details for a specific cluster.
+legacyAbac
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/legacyAbac
+Enables or disables the ABAC authorization mechanism on a cluster.
+list
+GET /v1beta1/projects/{projectId}/zones/{zone}/clusters
+Lists all clusters owned by a project in either the specified zone or all zones.
+locations
+(deprecated)
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/locations
+Sets the locations for a specific cluster.
+logging
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/logging
+Sets the logging service for a specific cluster.
+master
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/master
+Updates the master for a specific cluster.
+monitoring
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/monitoring
+Sets the monitoring service for a specific cluster.
+resourceLabels
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/resourceLabels
+Sets labels on a cluster.
+setMaintenancePolicy
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:setMaintenancePolicy
+Sets the maintenance policy for a cluster.
+setMasterAuth
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:setMasterAuth
+Sets master auth materials.
+setNetworkPolicy
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:setNetworkPolicy
+Enables or disables Network Policy for a cluster.
+startIpRotation
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:startIpRotation
+Starts master IP rotation.
+update
+PUT /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}
+Updates the settings for a specific cluster.
+REST Resource: v1beta1.projects.zones.clusters.nodePools
+Methods
+autoscaling
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}/autoscaling
+Sets the autoscaling settings of a specific node pool.
+create
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools
+Creates a node pool for a cluster.
+delete
+DELETE /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}
+Deletes a node pool from a cluster.
+get
+GET /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}
+Retrieves the requested node pool.
+list
+GET /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools
+Lists the node pools for a cluster.
+rollback
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}:rollback
+Rolls back a previously Aborted or Failed NodePool upgrade.
+setManagement
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}/setManagement
+Sets the NodeManagement options for a node pool.
+setSize
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}/setSize
+Sets the size for a specific node pool.
+update
+POST /v1beta1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}/update
+Updates the version and/or image type of a specific node pool.
+REST Resource: v1beta1.projects.zones.operations
+Methods
+cancel
+POST /v1beta1/projects/{projectId}/zones/{zone}/operations/{operationId}:cancel
+Cancels the specified operation.
+get
+GET /v1beta1/projects/{projectId}/zones/{zone}/operations/{operationId}
+Gets the specified operation.
+list
+GET /v1beta1/projects/{projectId}/zones/{zone}/operations
+Lists all operations in a project in the specified zone or all zones.
+Service: container.googleapis.com
+We recommend that you call this service using Google-provided client libraries. If your application needs to call this service using your own libraries, you should use the following information when making the API requests.
+
+Discovery document
+A Discovery Document is a machine-readable specification for describing and consuming REST APIs. It is used to build client libraries, IDE plugins, and other tools that interact with Google APIs. One service may provide multiple discovery documents. This service provides the following discovery documents:
+
+https://container.googleapis.com/$discovery/rest?version=v1
+https://container.googleapis.com/$discovery/rest?version=v1beta1
+Service endpoint
+A service endpoint is a base URL that specifies the network address of an API service. One service may have multiple service endpoints. This service has the following service endpoint and all URIs below are relative to this service endpoint:
+
+https://container.googleapis.com
+REST Resource: v1.projects.aggregated.usableSubnetworks
+Methods
+list
+GET /v1/{parent=projects/*}/aggregated/usableSubnetworks
+Lists subnetworks that are usable for creating clusters in a project.
+REST Resource: v1.projects.locations
+Methods
+getServerConfig
+GET /v1/{name=projects/*/locations/*}/serverConfig
+Returns configuration info about the Google Kubernetes Engine service.
+REST Resource: v1.projects.locations.clusters
+Methods
+completeIpRotation
+POST /v1/{name=projects/*/locations/*/clusters/*}:completeIpRotation
+Completes master IP rotation.
+create
+POST /v1/{parent=projects/*/locations/*}/clusters
+Creates a cluster, consisting of the specified number and type of Google Compute Engine instances.
+delete
+DELETE /v1/{name=projects/*/locations/*/clusters/*}
+Deletes the cluster, including the Kubernetes endpoint and all worker nodes.
+get
+GET /v1/{name=projects/*/locations/*/clusters/*}
+Gets the details of a specific cluster.
+getJwks
+GET /v1/{parent=projects/*/locations/*/clusters/*}/jwks
+Gets the public component of the cluster signing keys in JSON Web Key format.
+list
+GET /v1/{parent=projects/*/locations/*}/clusters
+Lists all clusters owned by a project in either the specified zone or all zones.
+setAddons
+POST /v1/{name=projects/*/locations/*/clusters/*}:setAddons
+Sets the addons for a specific cluster.
+setLegacyAbac
+POST /v1/{name=projects/*/locations/*/clusters/*}:setLegacyAbac
+Enables or disables the ABAC authorization mechanism on a cluster.
+setLocations
+(deprecated)
+POST /v1/{name=projects/*/locations/*/clusters/*}:setLocations
+Sets the locations for a specific cluster.
+setLogging
+POST /v1/{name=projects/*/locations/*/clusters/*}:setLogging
+Sets the logging service for a specific cluster.
+setMaintenancePolicy
+POST /v1/{name=projects/*/locations/*/clusters/*}:setMaintenancePolicy
+Sets the maintenance policy for a cluster.
+setMasterAuth
+POST /v1/{name=projects/*/locations/*/clusters/*}:setMasterAuth
+Sets master auth materials.
+setMonitoring
+POST /v1/{name=projects/*/locations/*/clusters/*}:setMonitoring
+Sets the monitoring service for a specific cluster.
+setNetworkPolicy
+POST /v1/{name=projects/*/locations/*/clusters/*}:setNetworkPolicy
+Enables or disables Network Policy for a cluster.
+setResourceLabels
+POST /v1/{name=projects/*/locations/*/clusters/*}:setResourceLabels
+Sets labels on a cluster.
+startIpRotation
+POST /v1/{name=projects/*/locations/*/clusters/*}:startIpRotation
+Starts master IP rotation.
+update
+PUT /v1/{name=projects/*/locations/*/clusters/*}
+Updates the settings of a specific cluster.
+updateMaster
+POST /v1/{name=projects/*/locations/*/clusters/*}:updateMaster
+Updates the master for a specific cluster.
+REST Resource: v1.projects.locations.clusters.nodePools
+Methods
+create
+POST /v1/{parent=projects/*/locations/*/clusters/*}/nodePools
+Creates a node pool for a cluster.
+delete
+DELETE /v1/{name=projects/*/locations/*/clusters/*/nodePools/*}
+Deletes a node pool from a cluster.
+get
+GET /v1/{name=projects/*/locations/*/clusters/*/nodePools/*}
+Retrieves the requested node pool.
+list
+GET /v1/{parent=projects/*/locations/*/clusters/*}/nodePools
+Lists the node pools for a cluster.
+rollback
+POST /v1/{name=projects/*/locations/*/clusters/*/nodePools/*}:rollback
+Rolls back a previously Aborted or Failed NodePool upgrade.
+setAutoscaling
+POST /v1/{name=projects/*/locations/*/clusters/*/nodePools/*}:setAutoscaling
+Sets the autoscaling settings for the specified node pool.
+setManagement
+POST /v1/{name=projects/*/locations/*/clusters/*/nodePools/*}:setManagement
+Sets the NodeManagement options for a node pool.
+setSize
+POST /v1/{name=projects/*/locations/*/clusters/*/nodePools/*}:setSize
+Sets the size for a specific node pool.
+update
+PUT /v1/{name=projects/*/locations/*/clusters/*/nodePools/*}
+Updates the version and/or image type for the specified node pool.
+REST Resource: v1.projects.locations.clusters.well-known
+Methods
+getOpenid-configuration
+GET /v1/{parent=projects/*/locations/*/clusters/*}/.well-known/openid-configuration
+Gets the OIDC discovery document for the cluster.
+REST Resource: v1.projects.locations.operations
+Methods
+cancel
+POST /v1/{name=projects/*/locations/*/operations/*}:cancel
+Cancels the specified operation.
+get
+GET /v1/{name=projects/*/locations/*/operations/*}
+Gets the specified operation.
+list
+GET /v1/{parent=projects/*/locations/*}/operations
+Lists all operations in a project in a specific zone or all zones.
+REST Resource: v1.projects.zones
+Methods
+getServerconfig
+GET /v1/projects/{projectId}/zones/{zone}/serverconfig
+Returns configuration info about the Google Kubernetes Engine service.
+REST Resource: v1.projects.zones.clusters
+Methods
+addons
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/addons
+Sets the addons for a specific cluster.
+completeIpRotation
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:completeIpRotation
+Completes master IP rotation.
+create
+POST /v1/projects/{projectId}/zones/{zone}/clusters
+Creates a cluster, consisting of the specified number and type of Google Compute Engine instances.
+delete
+DELETE /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}
+Deletes the cluster, including the Kubernetes endpoint and all worker nodes.
+get
+GET /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}
+Gets the details of a specific cluster.
+legacyAbac
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/legacyAbac
+Enables or disables the ABAC authorization mechanism on a cluster.
+list
+GET /v1/projects/{projectId}/zones/{zone}/clusters
+Lists all clusters owned by a project in either the specified zone or all zones.
+locations
+(deprecated)
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/locations
+Sets the locations for a specific cluster.
+logging
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/logging
+Sets the logging service for a specific cluster.
+master
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/master
+Updates the master for a specific cluster.
+monitoring
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/monitoring
+Sets the monitoring service for a specific cluster.
+resourceLabels
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/resourceLabels
+Sets labels on a cluster.
+setMaintenancePolicy
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:setMaintenancePolicy
+Sets the maintenance policy for a cluster.
+setMasterAuth
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:setMasterAuth
+Sets master auth materials.
+setNetworkPolicy
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:setNetworkPolicy
+Enables or disables Network Policy for a cluster.
+startIpRotation
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}:startIpRotation
+Starts master IP rotation.
+update
+PUT /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}
+Updates the settings of a specific cluster.
+REST Resource: v1.projects.zones.clusters.nodePools
+Methods
+autoscaling
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}/autoscaling
+Sets the autoscaling settings for the specified node pool.
+create
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools
+Creates a node pool for a cluster.
+delete
+DELETE /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}
+Deletes a node pool from a cluster.
+get
+GET /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}
+Retrieves the requested node pool.
+list
+GET /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools
+Lists the node pools for a cluster.
+rollback
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}:rollback
+Rolls back a previously Aborted or Failed NodePool upgrade.
+setManagement
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}/setManagement
+Sets the NodeManagement options for a node pool.
+setSize
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}/setSize
+Sets the size for a specific node pool.
+update
+POST /v1/projects/{projectId}/zones/{zone}/clusters/{clusterId}/nodePools/{nodePoolId}/update
+Updates the version and/or image type for the specified node pool.
+REST Resource: v1.projects.zones.operations
+Methods
+cancel
+POST /v1/projects/{projectId}/zones/{zone}/operations/{operationId}:cancel
+Cancels the specified operation.
+get
+GET /v1/projects/{projectId}/zones/{zone}/operations/{operationId}
+Gets the specified operation.
+list
+GET /v1/projects/{projectId}/zones/{zone}/operations
+Lists all operations in a project in a specific zone or all zones.
+Was this page helpful?
+Send feedback
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2020-07-13 UTC.
