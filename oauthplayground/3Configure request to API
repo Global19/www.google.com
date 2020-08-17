@@ -1,0 +1,48 @@
+Step 3Configure request to API
+
+Construct your HTTP request by specifying the URI, HTTP Method, headers, content type and request body.
+Then click the "Send the request" button to initiate the HTTP Request.
+HTTP Method:
+
+	
+
+Request URI:
+
+
+
+
+Content-Type:
+
+Note: The OAuth access token in Step 2 will be added to the Authorization header of the request.
+Request / Response
+
+POST /token HTTP/1.1
+Host: oauth2.googleapis.com
+Content-length: 277
+content-type: application/x-www-form-urlencoded
+user-agent: google-oauth-playground
+
+code=4%2F3AH9vkhFkj094XBhriVmE3Xg0c7HZbiWQsjLRuJyqeXPvUeoypv-OINuXj3GP7T6fPDBhE3gChNksRl8XgcCJls&redirect_uri=https%3A%2F%2Fdevelopers.google.com%2Foauthplayground&client_id=407408718192.apps.googleusercontent.com&client_secret=************&scope=&grant_type=authorization_code
+
+HTTP/1.1 200 OK
+Content-length: 3114
+X-xss-protection: 0
+X-content-type-options: nosniff
+Transfer-encoding: chunked
+Vary: Origin, X-Origin, Referer
+Server: scaffolding on HTTPServer2
+-content-encoding: gzip
+Cache-control: private
+Date: Mon, 17 Aug 2020 14:08:04 GMT
+X-frame-options: SAMEORIGIN
+Alt-svc: h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Content-type: application/json; charset=utf-8
+
+{
+  "access_token": "ya29.a0AfH6SMA0F3gt1wNy1jG8hwXGUNJhLeLYJXlhsm_eAfVb6EalvSq23nuXa-bwCCEyoq8JObQjBQCm9OsVFYUuF69hvRZyaXMu2zq6J2r1G0TC2b8TfMjqs-ZEJKDtULMbaSI3wYFet0gGdSsTPlLjN5o-S_lsFZQKDW0", 
+  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZiYzYzZTlmMThkNTYxYjM0ZjU2NjhmODhhZTI3ZDQ4ODc2ZDgwNzMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI0MDc0MDg3MTgxOTIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI0MDc0MDg3MTgxOTIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDg4NTQzNTI0MjkwODAyMjA5NDciLCJlbWFpbCI6Im0uc2hhZmZhcjE5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiV0NnRDdia0otQjhfMS1BaHZDT0ttQSIsIm5hbWUiOiJNLnNoYWZmYXIgc2hhIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS8tQ1RpRmtPbURreEEvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvQU1adXVjbFNYamo4eEhsM29kcjBzeEdpYTJwazh3ZVNsZy9zOTYtYy9waG90by5qcGciLCJnaXZlbl9uYW1lIjoiTS5zaGFmZmFyIiwiZmFtaWx5X25hbWUiOiJzaGEiLCJsb2NhbGUiOiJlbi1HQiIsImlhdCI6MTU5NzY3MzI4NCwiZXhwIjoxNTk3Njc2ODg0fQ.lg6IczK0TFiGrJa2QGKJg1J_hG6F54wMZrG7PJUunKgBpXIQHHRtFKyTa2JvY0HZ-eMTGUOR_0eywSwlDZHBfAwK0tz_okV5KlxWBr0hFet4VNHhyPSvzB2T6UB9-5lBo4KmJJtenA9uaW-eiKa72lD7owzt9voMsJa6DZI5Be_-jWvNAczfF_i_97nNj2toGDH2YloXsuG0_JJlaTk38K8roPANwa5P9__wc_BZRFPupTdveRNk0QR6MqGPi7jiX6jrm1Ead88QL4BU63BxwZgOp4s4Nchc6PZcH_PYBQ9cdvOjWP2pJSzaX1KQEY83z9W7ShLEad4jwKYBgjGKYg", 
+  "expires_in": 3599, 
+  "token_type": "Bearer", 
+  "scope": "https://www.googleapis.com/auth/service.management https://www.googleapis.com/auth/devstorage.full_control https://www.googleapis.com/auth/drive.metadata https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/bigquery https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/devstorage.read_only https://www.googleapis.com/auth/cloud-vision https://www.googleapis.com/auth/drive.appdata https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/genomics https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/compute.readonly openid https://www.googleapis.com/auth/webmasters https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/drive.activity.readonly https://www.googleapis.com/auth/bigquery.readonly https://www.googleapis.com/auth/drive.photos.readonly https://www.googleapis.com/auth/drive.scripts https://www.googleapis.com/auth/activity https://www.googleapis.com/auth/drive.activity https://www.googleapis.com/auth/firebase.readonly https://www.googleapis.com/auth/devstorage.read_write https://www.googleapis.com/auth/sitemaps https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/service.management.readonly https://www.googleapis.com/auth/cloud-platform.read-only https://www.googleapis.com/auth/webmasters.readonly https://www.googleapis.com/auth/bigquery.insertdata https://www.googleapis.com/auth/compute https://www.googleapis.com/auth/verifiedaccess https://www.googleapis.com/auth/drive.readonly", 
+  "refresh_token": "1//0fJDHec6UuIH0CgYIARAAGA8SNwF-L9IrxpwAcshhk5ZUnJ753vTmq2pvw4lH8FajUeuYKBCGd300GIm_50crH67jwh0YNdlMIkE"
+}
